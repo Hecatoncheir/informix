@@ -1,0 +1,23 @@
+//sass --watch web/stylesheets/main.scss:web/stylesheets/main.css --style compressed
+
+@import "reset";
+@import "breakpoint";
+@import 'bourbon/bourbon';
+@import "base/base";
+
+//@import "pesticide";
+
+$base-width: 2880px;
+$mid-width: 2554px;
+
+.middle {
+  width: percentage($mid-width / $base-width);
+  margin: 0 auto;
+}
+
+.clear {
+  clear: both;}
+
+
+//Components
+@import 'components/main-header';

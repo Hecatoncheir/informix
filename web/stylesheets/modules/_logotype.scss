@@ -1,0 +1,7 @@
+.logotype {
+  display: block;
+  background: url("../images/logotype.png") no-repeat;
+  background-size: contain;
+  width: percentage(738px / $mid-width);
+  height: 187px;
+}
