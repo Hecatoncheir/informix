@@ -1,21 +1,39 @@
 ﻿.search {
-  input {
+  position: relative;
+
+  input[type='text'] {
     width: 100%;
     height: 60px;
     outline: none;
     border-width: 4.111px;
     border-color: #b6bdc8;
     border-style: solid;
-    border-radius: 34px;
+    border-radius: 28px;
     box-shadow: none;
     margin-bottom: 0;
     padding: 0;
     padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 70px;
+
+    @include placeholder {
+      text-transform: uppercase;
+    }
+
   }
 
-  input:focus {
+  input[type='text']:focus {
     border-color: #d34e24;
     box-shadow: none;
   }
+
+  input[type='submit'] {
+    @extend .search-icon;
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    right: 20px;
+    top: 8px;
+    outline: none;
+  }
+
 }

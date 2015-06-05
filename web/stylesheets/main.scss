@@ -5,10 +5,18 @@
 @import 'bourbon/bourbon';
 @import "base/base";
 
+@import "modules/icons";
+@import "modules/fonts";
+
 //@import "pesticide";
 
 $base-width: 2880px;
 $mid-width: 2554px;
+
+$orange-color: #f28123;
+$dark-blue-color: #32213a;
+
+$break-small: min-width 360px;
 
 .middle {
   width: percentage($mid-width / $base-width);
@@ -21,3 +29,13 @@ $mid-width: 2554px;
 
 //Components
 @import 'components/main-header';
+
+
+html {
+  height: 100%
+}
+
+body {
+  font-size: 16px;
+  font-family: 'ubuntu-medium', sans-serif;
+}
