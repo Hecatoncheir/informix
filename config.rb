@@ -4,12 +4,12 @@ require 'susy'
 require 'breakpoint'
 
 # Set this to the root of your project when deployed:
-http_path = "web"
+http_path = "/"
 css_dir = "web/stylesheets"
 sass_dir = "web/stylesheets"
 images_dir = "web/images"
 javascripts_dir = "web/scripts"
-fonts_dir = "web/fonts"
+fonts_dir = "informix/web/fonts"
 
 # You can select your preferred output style here (can be overridden via the command line):
 # output_style = :expanded or :nested or :compact or :compressed

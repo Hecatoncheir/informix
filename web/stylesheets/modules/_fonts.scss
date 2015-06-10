@@ -1,10 +1,12 @@
-@font-face {
-  font-family: 'Ubuntu Medium';
-  font-style: normal;
-  font-weight: normal;
-  src: url('../fonts/ubuntu-medium/ubuntu-m-webfont.eot?#iefix') format('embedded-opentype'),
-  url('../fonts/ubuntu-medium/ubuntu-m-webfont.woff2') format('woff2'),
-  url('../fonts/ubuntu-medium/ubuntu-m-webfont.woff') format('woff'),
-  url('../fonts/ubuntu-medium/ubuntu-m-webfont.ttf') format('truetype');
-  src: url('../fonts/ubuntu-medium/ubuntu-m-webfont.eot');
-}
+//@font-face {
+//  font-family: 'Ubuntu Medium';
+//  font-style: normal;
+//  font-weight: normal;
+//  src: url('../fonts/ubuntu-medium/ubuntu-m-webfont.eot?#iefix') format('embedded-opentype'),
+//  url('../fonts/ubuntu-medium/ubuntu-m-webfont.woff2') format('woff2'),
+//  url('../fonts/ubuntu-medium/ubuntu-m-webfont.woff') format('woff'),
+//  url('../fonts/ubuntu-medium/ubuntu-m-webfont.ttf') format('truetype');
+//  src: url('../fonts/ubuntu-medium/ubuntu-m-webfont.eot');
+//}
+
+@include font-face("Ubuntu Medium", font-files("ubuntu-medium/ubuntu-m-webfont.ttf","ubuntu-medium/ubuntu-m-webfont.woff", "ubuntu-medium/ubuntu-m-webfont.eot"));

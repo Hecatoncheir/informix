@@ -5,7 +5,6 @@
   @include layout(12);
 
   font-family: 'Ubuntu Medium';
-  font-style: adjust-font-size-to(16);
   height: 380px;
   position: relative;
 
@@ -35,6 +34,7 @@
       @include span(last 3);
 
       margin-top: 40px;
+      font-family: "Ubuntu Medium";
 
       a {
         @include adjust-font-size-to(12px);
