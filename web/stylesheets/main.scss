@@ -1,14 +1,20 @@
-//sass --watch web/stylesheets/main.scss:web/stylesheets/main.css --style compressed
+@import 'compass/reset';
+@import "compass/typography/vertical_rhythm";
+@import "compass/css3/user-interface";
 
-@import "reset";
+@import "susy";
 @import "breakpoint";
-@import 'bourbon/bourbon';
-@import "base/base";
+
+@import "grids";
+
+//@import "pesticide";
 
 @import "modules/icons";
 @import "modules/fonts";
 
-//@import "pesticide";
+$base-font-size: 16px;
+$base-line-height: 24px;
+$rhythm-unit: "em";
 
 $base-width: 2880px;
 $mid-width: 2554px;
@@ -16,26 +22,6 @@ $mid-width: 2554px;
 $orange-color: #f28123;
 $dark-blue-color: #32213a;
 
-$break-small: min-width 360px;
-
-.middle {
-  width: percentage($mid-width / $base-width);
-  margin: 0 auto;
-}
-
-.clear {
-  clear: both;}
-
-
 //Components
+@import "components/base";
 @import 'components/main-header';
-
-
-html {
-  height: 100%
-}
-
-body {
-  font-size: 16px;
-  font-family: 'ubuntu-medium', sans-serif;
-}
