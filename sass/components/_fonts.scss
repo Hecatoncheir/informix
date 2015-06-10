@@ -1,0 +1,15 @@
+@import "compass/css3";
+
+//@include font-face('Ubuntu Bold', font-files('../ubuntu_bold/ubuntu-b-webfont.eot','../ubuntu_bold/ubuntu-b-webfont.ttf','../ubuntu_bold/ubuntu-b-webfont.woff','../ubuntu_bold/ubuntu-b-webfont.woff2'));
+
+@font-face {
+  font-family: 'Ubuntu Bold';
+  src: url('../fonts/ubuntu_bold/ubuntu-b-webfont.eot');
+  src: url('../fonts/ubuntu_bold/ubuntu-b-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/ubuntu_bold/ubuntu-b-webfont.woff2') format('woff2'),
+  url('../fonts/ubuntu_bold/ubuntu-b-webfont.woff') format('woff'),
+  url('../fonts/ubuntu_bold/ubuntu-b-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}

@@ -1,0 +1,12 @@
+.main-header {
+  @include container(80em);
+  
+}
+
+.main-logo {
+  background: url("../images/logotype.png") no-repeat;
+  width: images-width('../images/logotype.png');
+  height: image-height('../images/logotype.png');
+  display: block;
+  margin-left: span(3.5);
+}
