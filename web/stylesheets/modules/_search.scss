@@ -5,40 +5,35 @@
     @include input-placeholder {
       text-transform: uppercase;
     }
-
-    padding: 0;
+    @include span(15);
 
     border-color: #b6bdc8;
     border-radius: 28px;
     border-style: solid;
     border-width: 4.111px;
     box-shadow: none;
-    height: 60px;
+    height: 40px;
     margin-bottom: 0;
     outline: none;
     padding-left: 20px;
     padding-right: 70px;
-    width: 100%;
   }
 
   input[type='text']:focus {
-    border-color: #d34e24;
+    border-color: #d34e24 !important;
     box-shadow: none;
   }
 
-  input[type='submit'] {
-    @extend .search-icon;
-
-    top: 12px;
-    right: -70px;
+  #search-submit {
+    @include span(last 1);
 
     border: none;
-
-    height: 42px;
-    outline: none;
-    position: absolute;
-    width: 42px;
+    background: url("../images/icons/search-icon.svg") no-repeat;
 
     cursor: pointer;
+    margin-right: -24%;
+    margin-top: -30px;
+    outline: none;
+    width: 21px;
   }
 }

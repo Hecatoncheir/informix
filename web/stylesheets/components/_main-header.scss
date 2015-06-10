@@ -25,16 +25,17 @@
 
     .search {
       @include span(5);
+      @extend .search;
 
-      margin-top: 24px;
+      margin-top: 36px;
     }
 
 
     .main-menu {
       @include span(last 3);
 
-      margin-top: 40px;
       font-family: "Ubuntu Medium";
+      margin-top: 44px;
 
       a {
         @include adjust-font-size-to(12px);
