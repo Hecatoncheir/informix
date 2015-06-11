@@ -1,7 +1,10 @@
+@import "../modules/slide";
+
 .main-info {
   @include layout(12);
   @include container(80em);
   @include span(10);
+
   clear: both;
   margin-left: span(1);
   margin-right: span(1);
@@ -10,33 +13,35 @@
 
 .info-menu {
   @include span(1);
-  
+
   a {
-    float: left;
-    clear: left;
-    display: block;
-    width: 100%;
     padding: 5px;
+
+    clear: left;
+    cursor: pointer;
+    display: block;
+    float: left;
     height: span(1);
     margin-bottom: 5px;
-    cursor: pointer;
-    
+    width: 100%;
+
     img {
       width: 100%;
     }
-    
   }
 
   a:nth-child(1) {
     background-color: #ffce00;
     img {
-      margin-top: 5px;}
+      margin-top: 5px;
+    }
   }
 
   a:nth-child(2) {
     background-color: #e36a1e;
     img {
-      margin-top: 10px;}
+      margin-top: 10px;
+    }
   }
   a:nth-child(3) {
     background-color: #be391e;
@@ -47,17 +52,4 @@
   a:nth-child(5) {
     background-color: #193052;
   }
-  
-}
-
-.slides {
-  @include span(last 11);
-
-  img {
-    width: 100%;
-    -webkit-box-shadow: 0px 12px 27px -13px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 12px 27px -13px rgba(0,0,0,0.75);
-    box-shadow: 0px 12px 27px -13px rgba(0,0,0,0.75);
-  }
-
 }
