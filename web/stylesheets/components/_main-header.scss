@@ -5,7 +5,6 @@
   @include layout(12);
 
   font-family: 'Ubuntu Medium';
-  height: 380px;
   position: relative;
 
 
@@ -24,8 +23,21 @@
     }
 
     .search {
-      @include span(5);
+      @include span(2);
       @extend .search;
+
+      @include breakpoint(min-width 800px){
+        @include span(3);
+      }
+
+      @include breakpoint(min-width 1200px){
+        @include span(3.5);
+      }
+
+      @include breakpoint(min-width 1400px){
+        @include span(5);
+      }
+
 
       margin-top: 36px;
     }
@@ -33,6 +45,18 @@
 
     .main-menu {
       @include span(last 3);
+
+      @include breakpoint(min-width 800px){
+        @include span(last 4);
+      }
+
+      @include breakpoint(min-width 1200px){
+        @include span(last 3.5);
+      }
+
+      @include breakpoint(min-width 1300px){
+        @include span(last 3);
+      }
 
       font-family: "Ubuntu Medium";
       margin-top: 44px;
