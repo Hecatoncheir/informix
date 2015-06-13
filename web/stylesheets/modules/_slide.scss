@@ -13,7 +13,7 @@
     margin-top: get-gutter-width();
     position: absolute;
     width: 100px;
-    z-index: 9;
+    z-index: 7;
   }
 
   .slides-header-text {
@@ -23,6 +23,7 @@
     height: 100%;
     margin-top: get-gutter-width(2);
     width: 100%;
+    z-index: 5;
   }
 
 
