@@ -6,5 +6,31 @@
 
 .slides-header-text-icon {
   background: url('../images/slides-header.png') no-repeat;
+
   background-size: contain;
+}
+
+.info-icon {
+  //width: image-width("../images/icons/info-icon-black.png");
+  //height: image-height("../images/icons/info-icon-black.png");
+  background: url("../images/icons/info-icon-black.png") no-repeat;
+
+  background-size: contain;
+  display: block;
+  float: left;
+  height: 16px;
+  width: 16px;
+
+  //@include breakpoint(min-width 1200px){
+  //  width: 16px;
+  //  height: 16px;
+  //}
+}
+
+.info-icon-orange {
+  background: url("../images/icons/info-icon-orange.png") no-repeat;
+
+  background-size: contain;
+  height: 16px;
+  width: 16px;
 }

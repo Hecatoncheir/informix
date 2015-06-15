@@ -1,0 +1,5 @@
+.news {
+  @include span(last 9);
+
+  padding-left: get-gutter-width();
+}

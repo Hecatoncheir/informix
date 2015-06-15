@@ -1,0 +1,40 @@
+$main-new-image-height: 640/2*1px;
+
+.main-new {
+  @include span(3);
+
+  article {
+    padding: 3px;
+
+    background-position: center center;
+    background-size: cover !important;
+    margin-top: span(1);
+    min-height: $main-new-image-height;
+    width: 100%;
+
+    .content {
+      border: 3px solid #fff;
+
+      display: block;
+      padding-top: $main-new-image-height;
+      text-align: center;
+      p {
+        @include adjust-font-size-to(16px);
+
+        padding: 10px;
+
+        background: $dark-blue-color;
+
+        color: #fff;
+        font-family: 'Ubuntu Light', sans-serif;
+        padding-bottom: 20px;
+      }
+
+      i {
+        @include adjust-font-size-to(14px);
+
+        font-family: 'Ubuntu Light Italic';
+      }
+    }
+  }
+}

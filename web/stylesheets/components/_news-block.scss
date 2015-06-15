@@ -1,0 +1,46 @@
+@import "../modules/main-new";
+@import "../modules/news";
+
+.news-block {
+  @include container(80em);
+  @include layout(12 0 inside);
+  @include breakpoint(min-width 800px) {
+    padding-top: span(0.5);
+  }
+  @include breakpoint(min-width 1200px) {
+    padding-top: span(0.6);
+  }
+  @include breakpoint(min-width 1400px) {
+    padding-top: span(0.85);
+  }
+
+  clear: both;
+  margin-left: span(2);
+  margin-right: span(1.1);
+}
+
+.section-name {
+  @include adjust-font-size-to(17px);
+
+  font-family: "Ubuntu Bold";
+  text-transform: uppercase;
+
+  .info-icon {
+    margin-right: 6px;
+    margin-top: 3px;
+  }
+
+  .main-new & {
+    color: $dart-orange-color;
+    .info-icon {
+      @extend .info-icon-orange;
+    }
+  }
+
+  .news &:hover {
+    color: $dart-orange-color;
+    .info-icon {
+      @extend .info-icon-orange;
+    }
+  }
+}
