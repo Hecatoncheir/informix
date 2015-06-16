@@ -28,9 +28,12 @@ $mid-width: 2554px;
 $orange-color: #f28123;
 $dart-orange-color: #d34e24;
 $dark-blue-color: #32213a;
+$light-blue-color: #709cca;
+$blue-color: #3c6ea2;
 
 //Components
 @import "components/base";
 @import 'components/main-header';
 @import 'components/main-info';
 @import 'components/news-block';
+@import 'components/fast-news';

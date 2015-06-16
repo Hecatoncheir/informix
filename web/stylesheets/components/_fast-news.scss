@@ -1,0 +1,79 @@
+.fast-news {
+  @include container(80em);
+  @include layout(12 0 inside);
+
+  border-top: 1px solid #d6d3d8;
+  clear: both;
+  margin-left: span(2);
+  margin-left: span(2);
+  margin-right: span(1.4);
+  margin-top: 20px;
+  padding-bottom: 70px;
+  padding-top: 53px;
+
+
+  article {
+    padding: 4px;
+
+    background-color: #f5f7fa;
+    background-position: center center;
+    background-size: cover;
+    -webkit-box-shadow: 0 12px 27px -13px rgba(0,0,0,0.2);
+       -moz-box-shadow: 0 12px 27px -13px rgba(0,0,0,0.2);
+            box-shadow: 0 12px 27px -13px rgba(0,0,0,0.2);
+    display: block;
+    float: left;
+    margin-right: span(0.3);
+    min-height: 70px;
+    width: span(2);
+
+    .content {
+      padding: 10px 6px;
+
+      border: 2px solid #fff;
+
+      padding-top: 70px;
+      text-transform: uppercase;
+      word-break: break-all;
+    }
+
+    a {
+      @include adjust-font-size-to(14px);
+
+      padding: 2px;
+
+      color: #fff;
+      line-height: 4px;
+    }
+
+    &:first-child a {
+      background-color: $light-blue-color;
+    }
+    &:nth-child(2) a {
+      background-color: $blue-color;
+    }
+    &:nth-child(3) a {
+      background-color: $dark-blue-color;
+    }
+    &:nth-child(4) a {
+      background-color: $orange-color;
+    }
+    &:nth-child(5) a {
+      background-color: $dart-orange-color;
+    }
+  }
+
+  article:hover {
+    .content {
+      border-color: $orange-color;
+    }
+    a {
+      background-color: $dart-orange-color;
+    }
+  }
+
+  //
+  //article:last-child {
+  //  @include span(last 2);
+  //}
+}
