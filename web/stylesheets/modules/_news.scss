@@ -1,13 +1,13 @@
 .news {
   @include span(last 9);
   @layout(global-box-sizing: border-box);
+  @include border-box-sizing;
 
   header {
     margin-bottom: get-gutter-width(8);
   }
 
   padding-left: get-gutter-width();
-
 
 
   article  {
@@ -18,14 +18,6 @@
     background: #ffffff;
     border: 3px solid #e7eaee;
 
-
-    .masonry__gutter {
-      width: gutter();
-    }
-
-    .masonry__column {
-      width: span(3);
-    }
 
     @include border-box-sizing;
 
@@ -45,6 +37,10 @@
     p {
       color: #2f578c;
       padding: 10px 5px;
+    }
+
+    a {
+      color: #2f578c;
     }
   }
 

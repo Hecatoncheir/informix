@@ -1,9 +1,9 @@
 jQuery(document).ready(function($) {
-    var $masonryContainer = $('.news');
+    var $masonryContainer = $('.news-masonry');
 
     $masonryContainer.masonry({
-        columnWidth: '.masonry__column',
-        gutter: '.masonry__gutter',
+        columnWidth: 0.2,
+        gutter: 20,
         itemSelector: 'article'
     });
 });
