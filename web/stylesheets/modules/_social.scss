@@ -1,3 +1,19 @@
+@import '../modules/icons';
 .social-menu {
-  @include span(last 1.5);
+  @include span(last 1.8);
+  padding-top: 5px;
+
+  a {
+    float:left;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+  }
+
+  a:last-child {
+    margin-right: 0;
+    float:right;
+  }
+
 }

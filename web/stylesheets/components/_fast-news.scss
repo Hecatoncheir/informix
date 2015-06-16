@@ -34,11 +34,11 @@
 
       padding-top: 70px;
       text-transform: uppercase;
-      word-break: break-all;
+      word-break: normal;
     }
 
     a {
-      @include adjust-font-size-to(14px);
+      @include adjust-font-size-to(13px);
 
       padding: 2px;
 
