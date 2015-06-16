@@ -18,6 +18,10 @@
     background: #ffffff;
     border: 3px solid #e7eaee;
 
+    &:hover {
+      border-color: $orange-color;
+    }
+
 
     @include border-box-sizing;
 
