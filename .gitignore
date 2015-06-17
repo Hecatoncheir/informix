@@ -54,3 +54,5 @@ web/.idea
 .sass-cache
 web/stylesheets/main.css.map
 web/stylesheets/main.css
+gems.tags
+tags
