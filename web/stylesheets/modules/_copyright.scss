@@ -37,6 +37,7 @@
   margin-left: span(2);
   a {
     color: #7b86a1;
+    display: block;
     &:hover {
       color: $dart-orange-color;
     }

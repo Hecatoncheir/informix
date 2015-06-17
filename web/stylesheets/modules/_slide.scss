@@ -75,6 +75,22 @@
 
   position: absolute;
 
+  &:nth-child(2) {
+    a span {background-color: $dart-orange-color}
+  }
+
+  &:nth-child(3) {
+    a span {background-color: $dark-blue-color}
+  }
+
+  &:nth-child(4) {
+    a span {background-color: $dark-blue-color}
+  }
+
+  &:nth-child(5) {
+    a span {background-color: $dark-blue-color}
+  }
+
   a {
     @include adjust-font-size-to(35px);
 
