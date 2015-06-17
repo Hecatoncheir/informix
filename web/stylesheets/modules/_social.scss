@@ -8,12 +8,27 @@
     margin-right: 10px;
     width: 20px;
     height: 20px;
-    background-size: cover;
+    display: block;
+
+    .soc-icon {
+      width: auto;
+      height: 15px;
+    }
+
+    .tw {
+      width: 20px;
+      height: auto;
+    }
+
+    .fb,.vk,.yt,.in {
+      @extend .soc-icon;
+    }
+
+
   }
 
   a:last-child {
     margin-right: 0;
-    float:right;
   }
 
 }
