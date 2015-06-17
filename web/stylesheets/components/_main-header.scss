@@ -15,6 +15,12 @@
     margin-left: span(1);
     padding-top: 73px; //91px-14px
 
+
+    @include breakpoint(min-width 1600px){
+      margin-left: span(2);
+    }
+
+
     .header-logo {
       @include span(3);
       @extend .logotype;

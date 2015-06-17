@@ -9,6 +9,11 @@
   margin-left: span(1);
   margin-right: span(1);
   margin-top: -40px;
+
+  @include breakpoint(min-width 1600px){
+    margin-left: span(1.8);
+  }
+
 }
 
 .info-menu {
