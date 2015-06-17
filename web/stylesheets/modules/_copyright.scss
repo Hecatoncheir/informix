@@ -1,10 +1,54 @@
 .copyright {
+  background: #f4f7fb;
+  border-top: 1px solid #ffffff;
 
-  .footer-content {
-    background: #f4f7fb;
-    border-top: 1px solid #ffffff;
+  padding: 20px 0;
 
-    padding: 20px 0;
+  @include adjust-font-size-to(13px);
+  font-family: 'Ubuntu Regular';
+
+  color: #57525e;
+
+  span {
+    text-transform: uppercase;
   }
 
+  .footer-content {
+    @include layout(11);
+    @include container(80em);
+
+    margin-left: span(1.83);
+    margin-right: span(1);
+  }
+
+}
+
+.tanais-gr {
+  margin-top: 15px;
+  @include span(2);
+  span {
+    color: $orange-color;
+  }
+}
+
+.copylinks {
+  @include span(3);
+  text-align: center;
+  margin-left: span(2);
+  a {
+    color: #7b86a1;
+    &:hover {
+      color: $dart-orange-color;
+    }
+  }
+}
+
+.copy {
+  margin-top: 15px;
+  @include span(last 3);
+  text-align: right;
+  span {
+    color: #000;
+    font-family: 'Ubuntu Medium';
+  }
 }
