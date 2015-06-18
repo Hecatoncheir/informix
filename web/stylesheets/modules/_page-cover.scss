@@ -1,0 +1,31 @@
+.page-cover {
+	@include span(last 11);
+	height: span(4);
+	display: block;
+	margin-top: get-gutter-width(15);
+	margin-bottom: get-gutter-width(15);
+	position: relative;
+
+	img {
+		width: 100%;
+		height: auto;
+		-webkit-box-shadow: 0 12px 27px -13px rgba(0,0,0,0.2);
+       -moz-box-shadow: 0 12px 27px -13px rgba(0,0,0,0.2);
+        box-shadow: 0 12px 27px -13px rgba(0,0,0,0.2);
+	}
+
+	footer {
+		@include span (3);
+		left: span(1);
+		bottom: span(5);
+		position: absolute;
+	}
+
+	span {
+		background: #fff;
+		color: $orange-color;
+		padding: 2px 7px;
+		@include adjust-font-size-to(18px);
+		font-family: 'Ubuntu Bold';
+	}
+}
