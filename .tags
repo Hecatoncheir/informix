@@ -1,0 +1,302 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	Development	//
+#search-submit	web/stylesheets/modules/_search.scss	/^  #search-submit {$/;"	i
+$base-font-size	web/stylesheets/main.scss	/^$base-font-size: 16px;$/;"	v
+$base-line-height	web/stylesheets/main.scss	/^$base-line-height: 24px;$/;"	v
+$base-width	web/stylesheets/main.scss	/^$base-width: 2880px;$/;"	v
+$blue-color	web/stylesheets/main.scss	/^$blue-color: #3c6ea2;$/;"	v
+$dark-blue-color	web/stylesheets/main.scss	/^$dark-blue-color: #32213a;$/;"	v
+$dart-orange-color	web/stylesheets/main.scss	/^$dart-orange-color: #d34e24;$/;"	v
+$default-rhythm-border-style	web/stylesheets/main.scss	/^$default-rhythm-border-style: solid;$/;"	v
+$default-rhythm-border-width	web/stylesheets/main.scss	/^$default-rhythm-border-width: 1px;$/;"	v
+$light-blue-color	web/stylesheets/main.scss	/^$light-blue-color: #709cca;$/;"	v
+$main-new-image-height	web/stylesheets/modules/_main-new.scss	/^$main-new-image-height: 640\/2*1px;$/;"	v
+$mid-width	web/stylesheets/main.scss	/^$mid-width: 2554px;$/;"	v
+$min-line-padding	web/stylesheets/main.scss	/^$min-line-padding: 2px;$/;"	v
+$orange-color	web/stylesheets/main.scss	/^$orange-color: #f28123;$/;"	v
+$pesticide-debug-depth	web/stylesheets/_pesticide.scss	/^$pesticide-debug-depth: true !default;$/;"	v
+$pesticide-debug-outline	web/stylesheets/_pesticide.scss	/^$pesticide-debug-outline: true !default;$/;"	v
+$rem-with-px-fallback	web/stylesheets/main.scss	/^$rem-with-px-fallback: true;$/;"	v
+$rhythm-unit	web/stylesheets/main.scss	/^$rhythm-unit: "em";$/;"	v
+$round-to-nearest-half-line	web/stylesheets/main.scss	/^$round-to-nearest-half-line: false;$/;"	v
+$susy	web/stylesheets/_grids.scss	/^$susy: ($/;"	v
+.change-language	web/stylesheets/components/_main-header.scss	/^      .change-language {$/;"	c
+.content	web/stylesheets/components/_fast-news.scss	/^    .content {$/;"	c
+.content	web/stylesheets/modules/_main-new.scss	/^    .content {$/;"	c
+.copy	web/stylesheets/modules/_copyright.scss	/^.copy {$/;"	c
+.copylinks	web/stylesheets/modules/_copyright.scss	/^.copylinks {$/;"	c
+.copyright	web/stylesheets/modules/_copyright.scss	/^.copyright {$/;"	c
+.fast-news	web/stylesheets/components/_fast-news.scss	/^.fast-news {$/;"	c
+.fb	web/stylesheets/modules/_social.scss	/^    .fb,.vk,.yt,.in {$/;"	c
+.footer-content	web/stylesheets/components/_page-footer.scss	/^.footer-content {clear: both}/;"	c
+.footer-content	web/stylesheets/modules/_copyright.scss	/^  .footer-content {$/;"	c
+.footer-content	web/stylesheets/modules/_footer-navigation.scss	/^  .footer-content {$/;"	c
+.footer-menu	web/stylesheets/modules/_footer-navigation.scss	/^  .footer-menu {$/;"	c
+.footer-navigation	web/stylesheets/modules/_footer-navigation.scss	/^.footer-navigation {$/;"	c
+.header-items	web/stylesheets/components/_main-header.scss	/^  .header-items {$/;"	c
+.header-logo	web/stylesheets/components/_main-header.scss	/^    .header-logo {$/;"	c
+.info-icon	web/stylesheets/components/_news-block.scss	/^    .info-icon {$/;"	c
+.info-icon	web/stylesheets/components/_news-block.scss	/^  .info-icon {$/;"	c
+.info-icon	web/stylesheets/modules/_icons.scss	/^.info-icon {$/;"	c
+.info-icon-orange	web/stylesheets/modules/_icons.scss	/^.info-icon-orange {$/;"	c
+.info-menu	web/stylesheets/components/_main-info.scss	/^.info-menu {$/;"	c
+.logotype	web/stylesheets/modules/_logotype.scss	/^.logotype {$/;"	c
+.main-header	web/stylesheets/components/_main-header.scss	/^.main-header {$/;"	c
+.main-info	web/stylesheets/components/_main-info.scss	/^.main-info {$/;"	c
+.main-menu	web/stylesheets/components/_main-header.scss	/^    .main-menu {$/;"	c
+.main-new	web/stylesheets/components/_news-block.scss	/^  .main-new & {$/;"	c
+.main-new	web/stylesheets/modules/_main-new.scss	/^.main-new {$/;"	c
+.news	web/stylesheets/components/_news-block.scss	/^  .news &:hover {$/;"	c
+.news	web/stylesheets/modules/_news.scss	/^.news {$/;"	c
+.news-block	web/stylesheets/components/_news-block.scss	/^.news-block {$/;"	c
+.page-footer	web/stylesheets/components/_page-footer.scss	/^.page-footer {$/;"	c
+.search	web/stylesheets/components/_main-header.scss	/^    .search {$/;"	c
+.search-icon	web/stylesheets/modules/_icons.scss	/^.search-icon {$/;"	c
+.section-name	web/stylesheets/components/_news-block.scss	/^.section-name {$/;"	c
+.slide	web/stylesheets/modules/_slide.scss	/^.slide {$/;"	c
+.slide-active	web/stylesheets/modules/_slide.scss	/^      .slide-active {$/;"	c
+.slide-name	web/stylesheets/modules/_slide.scss	/^.slide-name {$/;"	c
+.slides	web/stylesheets/modules/_slide.scss	/^.slides {$/;"	c
+.slides-block	web/stylesheets/modules/_slide.scss	/^.slides-block {$/;"	c
+.slides-header-text	web/stylesheets/modules/_slide.scss	/^  .slides-header-text {$/;"	c
+.slides-header-text-icon	web/stylesheets/modules/_icons.scss	/^.slides-header-text-icon {$/;"	c
+.soc-icon	web/stylesheets/modules/_social.scss	/^    .soc-icon {$/;"	c
+.social-menu	web/stylesheets/modules/_social.scss	/^.social-menu {$/;"	c
+.tanais-gr	web/stylesheets/modules/_copyright.scss	/^.tanais-gr {$/;"	c
+.tooltip	web/stylesheets/components/_main-info.scss	/^      .tooltip {$/;"	c
+.tooltip	web/stylesheets/components/_main-info.scss	/^    .tooltip {$/;"	c
+.top-line	web/stylesheets/components/_base.scss	/^.top-line {$/;"	c
+.tw	web/stylesheets/modules/_social.scss	/^    .tw {$/;"	c
+a	web/stylesheets/_pesticide.scss	/^  a { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+a	web/stylesheets/_pesticide.scss	/^  a { outline: 1px solid #ff62ab !important; }$/;"	t
+a	web/stylesheets/components/_base.scss	/^a {$/;"	t
+a	web/stylesheets/components/_fast-news.scss	/^    a {$/;"	t
+a	web/stylesheets/components/_main-header.scss	/^      a {$/;"	t
+a	web/stylesheets/components/_main-info.scss	/^  a {$/;"	t
+a	web/stylesheets/modules/_copyright.scss	/^  a {$/;"	t
+a	web/stylesheets/modules/_footer-navigation.scss	/^  a {$/;"	t
+a	web/stylesheets/modules/_news.scss	/^    a {$/;"	t
+a	web/stylesheets/modules/_slide.scss	/^      a {$/;"	t
+a	web/stylesheets/modules/_slide.scss	/^  a {$/;"	t
+a	web/stylesheets/modules/_social.scss	/^  a {$/;"	t
+a span	web/stylesheets/modules/_slide.scss	/^    a span {background-color: $dark-blue-color}$/;"	t
+a span	web/stylesheets/modules/_slide.scss	/^    a span {background-color: $dart-orange-color}$/;"	t
+abbr	web/stylesheets/_pesticide.scss	/^  abbr { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+abbr	web/stylesheets/_pesticide.scss	/^  abbr { outline: 1px solid #4a0263 !important; }$/;"	t
+address	web/stylesheets/_pesticide.scss	/^  address { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+address	web/stylesheets/_pesticide.scss	/^  address { outline: 1px solid #1a2c51 !important; }$/;"	t
+area	web/stylesheets/_pesticide.scss	/^  area { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+area	web/stylesheets/_pesticide.scss	/^  area { outline: 1px solid #305900 !important; }$/;"	t
+article	web/stylesheets/_pesticide.scss	/^  article { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+article	web/stylesheets/_pesticide.scss	/^  article { outline: 1px solid #3498db !important; }$/;"	t
+article	web/stylesheets/components/_fast-news.scss	/^  article {$/;"	t
+article	web/stylesheets/modules/_main-new.scss	/^  article {$/;"	t
+article	web/stylesheets/modules/_news.scss	/^  article  {$/;"	t
+aside	web/stylesheets/_pesticide.scss	/^  aside { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+aside	web/stylesheets/_pesticide.scss	/^  aside { outline: 1px solid #33a0ce !important; }$/;"	t
+audio	web/stylesheets/_pesticide.scss	/^  audio { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+audio	web/stylesheets/_pesticide.scss	/^  audio { outline: 1px solid #027353 !important; }$/;"	t
+b	web/stylesheets/_pesticide.scss	/^  b { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+b	web/stylesheets/_pesticide.scss	/^  b { outline: 1px solid #cc1169 !important; }$/;"	t
+bdi	web/stylesheets/_pesticide.scss	/^  bdi { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+bdi	web/stylesheets/_pesticide.scss	/^  bdi { outline: 1px solid #bf3668 !important; }$/;"	t
+bdo	web/stylesheets/_pesticide.scss	/^  bdo { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+bdo	web/stylesheets/_pesticide.scss	/^  bdo { outline: 1px solid #6f1400 !important; }$/;"	t
+blockquote	web/stylesheets/_pesticide.scss	/^  blockquote { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+blockquote	web/stylesheets/_pesticide.scss	/^  blockquote { outline: 1px solid #f1b8e7 !important; }$/;"	t
+body	web/stylesheets/_pesticide.scss	/^  body { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(17,34,99,0.25) }$/;"	t
+body	web/stylesheets/_pesticide.scss	/^  body { outline: 1px solid #2980b9 !important; }$/;"	t
+body	web/stylesheets/components/_base.scss	/^body {$/;"	t
+br	web/stylesheets/_pesticide.scss	/^  br { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+br	web/stylesheets/_pesticide.scss	/^  br { outline: 1px solid #db687d !important; }$/;"	t
+button	web/stylesheets/_pesticide.scss	/^  button { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+button	web/stylesheets/_pesticide.scss	/^  button { outline: 1px solid #da8301 !important; }$/;"	t
+canvas	web/stylesheets/_pesticide.scss	/^  canvas { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+canvas	web/stylesheets/_pesticide.scss	/^  canvas { outline: 1px solid #a2f570 !important; }$/;"	t
+caption	web/stylesheets/_pesticide.scss	/^  caption { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+caption	web/stylesheets/_pesticide.scss	/^  caption { outline: 1px solid #37ffc4 !important; }$/;"	t
+cite	web/stylesheets/_pesticide.scss	/^  cite { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+cite	web/stylesheets/_pesticide.scss	/^  cite { outline: 1px solid #64003c !important; }$/;"	t
+code	web/stylesheets/_pesticide.scss	/^  code { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+code	web/stylesheets/_pesticide.scss	/^  code { outline: 1px solid #e04251 !important; }$/;"	t
+col	web/stylesheets/_pesticide.scss	/^  col { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+col	web/stylesheets/_pesticide.scss	/^  col { outline: 1px solid #6c9a8f !important; }$/;"	t
+colgroup	web/stylesheets/_pesticide.scss	/^  colgroup { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+colgroup	web/stylesheets/_pesticide.scss	/^  colgroup { outline: 1px solid #6c9a9d !important; }$/;"	t
+command	web/stylesheets/_pesticide.scss	/^  command { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+command	web/stylesheets/_pesticide.scss	/^  command { outline: 1px solid #438da1 !important; }$/;"	t
+datalist	web/stylesheets/_pesticide.scss	/^  datalist { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+datalist	web/stylesheets/_pesticide.scss	/^  datalist { outline: 1px solid #c06000 !important; }$/;"	t
+dd	web/stylesheets/_pesticide.scss	/^  dd { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+dd	web/stylesheets/_pesticide.scss	/^  dd { outline: 1px solid #e80174 !important; }$/;"	t
+del	web/stylesheets/_pesticide.scss	/^  del { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+del	web/stylesheets/_pesticide.scss	/^  del { outline: 1px solid #bf0000 !important; }$/;"	t
+details	web/stylesheets/_pesticide.scss	/^  details { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+details	web/stylesheets/_pesticide.scss	/^  details { outline: 1px solid #33848f !important; }$/;"	t
+dfn	web/stylesheets/_pesticide.scss	/^  dfn { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+dfn	web/stylesheets/_pesticide.scss	/^  dfn { outline: 1px solid #b4005a !important; }$/;"	t
+div	web/stylesheets/_pesticide.scss	/^  div { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+div	web/stylesheets/_pesticide.scss	/^  div { outline: 1px solid #036cdb !important; }$/;"	t
+dl	web/stylesheets/_pesticide.scss	/^  dl { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+dl	web/stylesheets/_pesticide.scss	/^  dl { outline: 1px solid #fd3427 !important; }$/;"	t
+dt	web/stylesheets/_pesticide.scss	/^  dt { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+dt	web/stylesheets/_pesticide.scss	/^  dt { outline: 1px solid #ff0043 !important; }$/;"	t
+em	web/stylesheets/_pesticide.scss	/^  em { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+em	web/stylesheets/_pesticide.scss	/^  em { outline: 1px solid #800b41 !important; }$/;"	t
+embed	web/stylesheets/_pesticide.scss	/^  embed { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+embed	web/stylesheets/_pesticide.scss	/^  embed { outline: 1px solid #98daca !important; }$/;"	t
+fieldset	web/stylesheets/_pesticide.scss	/^  fieldset { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+fieldset	web/stylesheets/_pesticide.scss	/^  fieldset { outline: 1px solid #d95100 !important; }$/;"	t
+figcaption	web/stylesheets/_pesticide.scss	/^  figcaption { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+figcaption	web/stylesheets/_pesticide.scss	/^  figcaption { outline: 1px solid #bf0032 !important; }$/;"	t
+figure	web/stylesheets/_pesticide.scss	/^  figure { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+figure	web/stylesheets/_pesticide.scss	/^  figure { outline: 1px solid #ff00bb !important; }$/;"	t
+footer	web/stylesheets/_pesticide.scss	/^  footer { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+footer	web/stylesheets/_pesticide.scss	/^  footer { outline: 1px solid #cce7f3 !important; }$/;"	t
+footer	web/stylesheets/modules/_slide.scss	/^  footer {$/;"	t
+form	web/stylesheets/_pesticide.scss	/^  form { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+form	web/stylesheets/_pesticide.scss	/^  form { outline: 1px solid #d23600 !important; }$/;"	t
+h1	web/stylesheets/_pesticide.scss	/^  h1 { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+h1	web/stylesheets/_pesticide.scss	/^  h1 { outline: 1px solid #162544 !important; }$/;"	t
+h2	web/stylesheets/_pesticide.scss	/^  h2 { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+h2	web/stylesheets/_pesticide.scss	/^  h2 { outline: 1px solid #314e6e !important; }$/;"	t
+h3	web/stylesheets/_pesticide.scss	/^  h3 { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+h3	web/stylesheets/_pesticide.scss	/^  h3 { outline: 1px solid #3e5e85 !important; }$/;"	t
+h4	web/stylesheets/_pesticide.scss	/^  h4 { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+h4	web/stylesheets/_pesticide.scss	/^  h4 { outline: 1px solid #449baf !important; }$/;"	t
+h5	web/stylesheets/_pesticide.scss	/^  h5 { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+h5	web/stylesheets/_pesticide.scss	/^  h5 { outline: 1px solid #c7d1cb !important; }$/;"	t
+h6	web/stylesheets/_pesticide.scss	/^  h6 { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+h6	web/stylesheets/_pesticide.scss	/^  h6 { outline: 1px solid #4371d0 !important; }$/;"	t
+header	web/stylesheets/_pesticide.scss	/^  header { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+header	web/stylesheets/_pesticide.scss	/^  header { outline: 1px solid #99cfe7 !important; }$/;"	t
+header	web/stylesheets/modules/_news.scss	/^  header {$/;"	t
+header	web/stylesheets/modules/_slide.scss	/^  header {$/;"	t
+hr	web/stylesheets/_pesticide.scss	/^  hr { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+hr	web/stylesheets/_pesticide.scss	/^  hr { outline: 1px solid #ff063f !important; }$/;"	t
+html	web/stylesheets/components/_base.scss	/^html {$/;"	t
+i	web/stylesheets/_pesticide.scss	/^  i { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+i	web/stylesheets/_pesticide.scss	/^  i { outline: 1px solid #803156 !important; }$/;"	t
+i	web/stylesheets/modules/_main-new.scss	/^      i {$/;"	t
+iframe	web/stylesheets/_pesticide.scss	/^  iframe { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+iframe	web/stylesheets/_pesticide.scss	/^  iframe { outline: 1px solid #64a7a0 !important; }$/;"	t
+img	web/stylesheets/_pesticide.scss	/^  img { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+img	web/stylesheets/_pesticide.scss	/^  img { outline: 1px solid #22746b !important; }$/;"	t
+img	web/stylesheets/components/_main-info.scss	/^      img {$/;"	t
+img	web/stylesheets/components/_main-info.scss	/^    img {$/;"	t
+img	web/stylesheets/modules/_news.scss	/^    img {$/;"	t
+img	web/stylesheets/modules/_slide.scss	/^  img {$/;"	t
+input	web/stylesheets/_pesticide.scss	/^  input { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+input	web/stylesheets/_pesticide.scss	/^  input { outline: 1px solid #fca600 !important; }$/;"	t
+ins	web/stylesheets/_pesticide.scss	/^  ins { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+ins	web/stylesheets/_pesticide.scss	/^  ins { outline: 1px solid #400000 !important; }$/;"	t
+kbd	web/stylesheets/_pesticide.scss	/^  kbd { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+kbd	web/stylesheets/_pesticide.scss	/^  kbd { outline: 1px solid #5e001f !important; }$/;"	t
+keygen	web/stylesheets/_pesticide.scss	/^  keygen { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+keygen	web/stylesheets/_pesticide.scss	/^  keygen { outline: 1px solid #b31e00 !important; }$/;"	t
+label	web/stylesheets/_pesticide.scss	/^  label { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+label	web/stylesheets/_pesticide.scss	/^  label { outline: 1px solid #ee8900 !important; }$/;"	t
+legend	web/stylesheets/_pesticide.scss	/^  legend { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+legend	web/stylesheets/_pesticide.scss	/^  legend { outline: 1px solid #de6d00 !important; }$/;"	t
+li	web/stylesheets/_pesticide.scss	/^  li { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+li	web/stylesheets/_pesticide.scss	/^  li { outline: 1px solid #d90416 !important; }$/;"	t
+main	web/stylesheets/_pesticide.scss	/^  main { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+main	web/stylesheets/_pesticide.scss	/^  main { outline: 1px solid #2f4f90 !important; }$/;"	t
+map	web/stylesheets/_pesticide.scss	/^  map { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+map	web/stylesheets/_pesticide.scss	/^  map { outline: 1px solid #7be500 !important; }$/;"	t
+mark	web/stylesheets/_pesticide.scss	/^  mark { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+mark	web/stylesheets/_pesticide.scss	/^  mark { outline: 1px solid #ff0053 !important; }$/;"	t
+menu	web/stylesheets/_pesticide.scss	/^  menu { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+menu	web/stylesheets/_pesticide.scss	/^  menu { outline: 1px solid #449da6 !important; }$/;"	t
+meter	web/stylesheets/_pesticide.scss	/^  meter { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+meter	web/stylesheets/_pesticide.scss	/^  meter { outline: 1px solid #e8630c !important; }$/;"	t
+nav	web/stylesheets/_pesticide.scss	/^  nav { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+nav	web/stylesheets/_pesticide.scss	/^  nav { outline: 1px solid #0088c3 !important; }$/;"	t
+nav	web/stylesheets/modules/_slide.scss	/^    nav {$/;"	t
+object	web/stylesheets/_pesticide.scss	/^  object { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+object	web/stylesheets/_pesticide.scss	/^  object { outline: 1px solid #00cc99 !important; }$/;"	t
+ol	web/stylesheets/_pesticide.scss	/^  ol { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+ol	web/stylesheets/_pesticide.scss	/^  ol { outline: 1px solid #ff050c !important; }$/;"	t
+optgroup	web/stylesheets/_pesticide.scss	/^  optgroup { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+optgroup	web/stylesheets/_pesticide.scss	/^  optgroup { outline: 1px solid #b33600 !important; }$/;"	t
+option	web/stylesheets/_pesticide.scss	/^  option { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+option	web/stylesheets/_pesticide.scss	/^  option { outline: 1px solid #ff8a00 !important; }$/;"	t
+output	web/stylesheets/_pesticide.scss	/^  output { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+output	web/stylesheets/_pesticide.scss	/^  output { outline: 1px solid #ff9619 !important; }$/;"	t
+p	web/stylesheets/_pesticide.scss	/^  p { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+p	web/stylesheets/_pesticide.scss	/^  p { outline: 1px solid #ac050b !important; }$/;"	t
+p	web/stylesheets/modules/_main-new.scss	/^      p {$/;"	t
+p	web/stylesheets/modules/_news.scss	/^    p {$/;"	t
+param	web/stylesheets/_pesticide.scss	/^  param { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+param	web/stylesheets/_pesticide.scss	/^  param { outline: 1px solid #37ffc4 !important; }$/;"	t
+pre	web/stylesheets/_pesticide.scss	/^  pre { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+pre	web/stylesheets/_pesticide.scss	/^  pre { outline: 1px solid #850440 !important; }$/;"	t
+progress	web/stylesheets/_pesticide.scss	/^  progress { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+progress	web/stylesheets/_pesticide.scss	/^  progress { outline: 1px solid #e57c00 !important; }$/;"	t
+q	web/stylesheets/_pesticide.scss	/^  q { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+q	web/stylesheets/_pesticide.scss	/^  q { outline: 1px solid #240018 !important; }$/;"	t
+rp	web/stylesheets/_pesticide.scss	/^  rp { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+rp	web/stylesheets/_pesticide.scss	/^  rp { outline: 1px solid #803e49 !important; }$/;"	t
+rt	web/stylesheets/_pesticide.scss	/^  rt { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+rt	web/stylesheets/_pesticide.scss	/^  rt { outline: 1px solid #ff2f54 !important; }$/;"	t
+ruby	web/stylesheets/_pesticide.scss	/^  ruby { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+ruby	web/stylesheets/_pesticide.scss	/^  ruby { outline: 1px solid #ff7b93 !important; }$/;"	t
+s	web/stylesheets/_pesticide.scss	/^  s { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+s	web/stylesheets/_pesticide.scss	/^  s { outline: 1px solid #f805e3 !important; }$/;"	t
+samp	web/stylesheets/_pesticide.scss	/^  samp { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+samp	web/stylesheets/_pesticide.scss	/^  samp { outline: 1px solid #9c0033 !important; }$/;"	t
+section	web/stylesheets/_pesticide.scss	/^  section { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+section	web/stylesheets/_pesticide.scss	/^  section { outline: 1px solid #66b8da !important; }$/;"	t
+select	web/stylesheets/_pesticide.scss	/^  select { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+select	web/stylesheets/_pesticide.scss	/^  select { outline: 1px solid #e26e0f !important; }$/;"	t
+small	web/stylesheets/_pesticide.scss	/^  small { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+small	web/stylesheets/_pesticide.scss	/^  small { outline: 1px solid #d107b2 !important; }$/;"	t
+source	web/stylesheets/_pesticide.scss	/^  source { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+source	web/stylesheets/_pesticide.scss	/^  source { outline: 1px solid #012426 !important; }$/;"	t
+span	web/stylesheets/_pesticide.scss	/^  span { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+span	web/stylesheets/_pesticide.scss	/^  span { outline: 1px solid #cc2643 !important; }$/;"	t
+span	web/stylesheets/modules/_copyright.scss	/^  span {$/;"	t
+span	web/stylesheets/modules/_slide.scss	/^    span {$/;"	t
+strong	web/stylesheets/_pesticide.scss	/^  strong { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+strong	web/stylesheets/_pesticide.scss	/^  strong { outline: 1px solid #ff1583 !important; }$/;"	t
+sub	web/stylesheets/_pesticide.scss	/^  sub { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+sub	web/stylesheets/_pesticide.scss	/^  sub { outline: 1px solid #dba0c8 !important; }$/;"	t
+summary	web/stylesheets/_pesticide.scss	/^  summary { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+summary	web/stylesheets/_pesticide.scss	/^  summary { outline: 1px solid #60a1a6 !important; }$/;"	t
+sup	web/stylesheets/_pesticide.scss	/^  sup { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+sup	web/stylesheets/_pesticide.scss	/^  sup { outline: 1px solid #cc0256 !important; }$/;"	t
+table	web/stylesheets/_pesticide.scss	/^  table { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+table	web/stylesheets/_pesticide.scss	/^  table { outline: 1px solid #00cc99 !important; }$/;"	t
+tbody	web/stylesheets/_pesticide.scss	/^  tbody { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+tbody	web/stylesheets/_pesticide.scss	/^  tbody { outline: 1px solid #64a7a0 !important; }$/;"	t
+td	web/stylesheets/_pesticide.scss	/^  td { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+td	web/stylesheets/_pesticide.scss	/^  td { outline: 1px solid #3f5a54 !important; }$/;"	t
+textarea	web/stylesheets/_pesticide.scss	/^  textarea { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+textarea	web/stylesheets/_pesticide.scss	/^  textarea { outline: 1px solid #cc5400 !important; }$/;"	t
+tfoot	web/stylesheets/_pesticide.scss	/^  tfoot { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+tfoot	web/stylesheets/_pesticide.scss	/^  tfoot { outline: 1px solid #22746b !important; }$/;"	t
+th	web/stylesheets/_pesticide.scss	/^  th { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+th	web/stylesheets/_pesticide.scss	/^  th { outline: 1px solid #a1e7d6 !important; }$/;"	t
+thead	web/stylesheets/_pesticide.scss	/^  thead { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+thead	web/stylesheets/_pesticide.scss	/^  thead { outline: 1px solid #98daca !important; }$/;"	t
+time	web/stylesheets/_pesticide.scss	/^  time { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+time	web/stylesheets/_pesticide.scss	/^  time { outline: 1px solid #d6606d !important; }$/;"	t
+time	web/stylesheets/modules/_news.scss	/^    time {$/;"	t
+tr	web/stylesheets/_pesticide.scss	/^  tr { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+tr	web/stylesheets/_pesticide.scss	/^  tr { outline: 1px solid #86c0b2 !important; }$/;"	t
+track	web/stylesheets/_pesticide.scss	/^  track { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+track	web/stylesheets/_pesticide.scss	/^  track { outline: 1px solid #59a600 !important; }$/;"	t
+u	web/stylesheets/_pesticide.scss	/^  u { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+u	web/stylesheets/_pesticide.scss	/^  u { outline: 1px solid #ff0430 !important; }$/;"	t
+ul	web/stylesheets/_pesticide.scss	/^  ul { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+ul	web/stylesheets/_pesticide.scss	/^  ul { outline: 1px solid #d90416 !important; }$/;"	t
+var	web/stylesheets/_pesticide.scss	/^  var { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+var	web/stylesheets/_pesticide.scss	/^  var { outline: 1px solid #d90047 !important; }$/;"	t
+video	web/stylesheets/_pesticide.scss	/^  video { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+video	web/stylesheets/_pesticide.scss	/^  video { outline: 1px solid #6ee866 !important; }$/;"	t
+wbr	web/stylesheets/_pesticide.scss	/^  wbr { box-shadow: 0 0 1rem rgba(0,0,0,.6); background-color: rgba(255,255,255,0.25) }$/;"	t
+wbr	web/stylesheets/_pesticide.scss	/^  wbr { outline: 1px solid #db175b !important; }$/;"	t
