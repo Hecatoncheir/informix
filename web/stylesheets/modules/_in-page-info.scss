@@ -1,0 +1,40 @@
+.in-page-info {
+	@include span(last 11);
+
+	header {
+		background: #f4f6f8;
+		border-radius: 3px;
+		padding: 10px;
+	}
+
+	.page-name {
+		@include span(7);
+		text-transform: uppercase;
+		color: $dark-blue-color;
+		font-family: 'Ubuntu Bold';
+		@include adjust-font-size-to(16px);
+
+		span {
+			display: block;
+			@include adjust-font-size-to(10px);
+			font-family: 'Ubuntu Light';
+		}
+	}
+
+	.inquiry {
+		@include span(last 3);
+		@include adjust-font-size-to(13px);
+		font-family: 'Ubuntu Medium';
+		text-align: right;
+		padding: 10px;
+		color: #fff;
+		border-radius: 4px;
+		background: #f87e47;
+		border-bottom: 3px solid #d4561d;
+
+		&:hover {
+			color: $dark-blue-color;
+		}
+	}
+
+}

@@ -1,0 +1,27 @@
+.breadcrumbs {
+	margin-top: get-gutter-width(18);
+	max-width: span(6);
+	float: left;
+
+	nav {
+		background: #f87e47;
+		padding: 2px 12px;
+		border-radius: 4px;
+	}
+
+	a {
+		font-family: 'Ubuntu Medium';
+		@include adjust-font-size-to(13px);
+		color: #fff;
+		float: left;
+
+		&:first-child {
+			font-family: 'Ubuntu Light';
+		}
+
+		&:hover {
+			color: $dark-blue-color;
+		}
+
+	}
+}

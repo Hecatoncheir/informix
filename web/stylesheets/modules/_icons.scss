@@ -35,6 +35,28 @@
   width: 16px;
 }
 
+.inquiry-icon {
+  background: url('../images/icons/inquiry-icon.png') no-repeat;
+  background-size: contain;
+  width: 15px;
+  height: 15px;
+  margin-top: 3px;
+  display: block;
+  float: left;
+}
+
+.breadcrumb-arrow {
+      display: block;
+      width: 8px;
+      height: 8px;
+      background: url('../images/icons/breadcrumbs-arrow.png') no-repeat;
+      background-size: contain;
+      float: left;
+      margin-top: 7px;
+      margin-left: 5px;
+      margin-right: 2px;
+}
+
 //SOCIAL
 
 //.fb {
