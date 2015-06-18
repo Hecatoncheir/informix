@@ -1,27 +1,29 @@
 .breadcrumbs {
-	margin-top: get-gutter-width(18);
-	max-width: span(6);
-	float: left;
+  float: left;
+  margin-top: get-gutter-width(18);
+  max-width: span(6);
 
-	nav {
-		background: #f87e47;
-		padding: 2px 12px;
-		border-radius: 4px;
-	}
+  nav {
+    padding: 2px 12px;
 
-	a {
-		font-family: 'Ubuntu Medium';
-		@include adjust-font-size-to(13px);
-		color: #fff;
-		float: left;
+    background: #f87e47;
 
-		&:first-child {
-			font-family: 'Ubuntu Light';
-		}
+    border-radius: 4px;
+  }
 
-		&:hover {
-			color: $dark-blue-color;
-		}
+  a {
+    @include adjust-font-size-to(13px);
 
-	}
+    color: #fff;
+    float: left;
+    font-family: 'Ubuntu Medium';
+
+    &:first-child {
+      font-family: 'Ubuntu Light';
+    }
+
+    &:hover {
+      color: $dark-blue-color;
+    }
+  }
 }

@@ -1,13 +1,13 @@
 .copyright {
-  background: #f4f7fb;
-  border-top: 1px solid #ffffff;
+  @include adjust-font-size-to(13px);
 
   padding: 20px 0;
 
-  @include adjust-font-size-to(13px);
-  font-family: 'Ubuntu Regular';
+  background: #f4f7fb;
 
+  border-top: 1px solid #fff;
   color: #57525e;
+  font-family: 'Ubuntu Regular';
 
   span {
     text-transform: uppercase;
@@ -20,12 +20,12 @@
     margin-left: span(1.83);
     margin-right: span(1);
   }
-
 }
 
 .tanais-gr {
-  margin-top: 15px;
   @include span(2);
+
+  margin-top: 15px;
   span {
     color: $orange-color;
   }
@@ -33,8 +33,9 @@
 
 .copylinks {
   @include span(3);
-  text-align: center;
+
   margin-left: span(2);
+  text-align: center;
   a {
     color: #7b86a1;
     display: block;
@@ -45,8 +46,9 @@
 }
 
 .copy {
-  margin-top: 15px;
   @include span(last 3);
+
+  margin-top: 15px;
   text-align: right;
   span {
     color: #000;

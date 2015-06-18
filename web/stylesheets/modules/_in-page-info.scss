@@ -1,40 +1,46 @@
 .in-page-info {
-	@include span(last 11);
+  @include span(last 11);
 
-	header {
-		background: #f4f6f8;
-		border-radius: 3px;
-		padding: 10px;
-	}
+  header {
+    padding: 10px;
 
-	.page-name {
-		@include span(7);
-		text-transform: uppercase;
-		color: $dark-blue-color;
-		font-family: 'Ubuntu Bold';
-		@include adjust-font-size-to(16px);
+    background: #f4f6f8;
 
-		span {
-			display: block;
-			@include adjust-font-size-to(10px);
-			font-family: 'Ubuntu Light';
-		}
-	}
+    border-radius: 3px;
+  }
 
-	.inquiry {
-		@include span(last 3);
-		@include adjust-font-size-to(13px);
-		font-family: 'Ubuntu Medium';
-		text-align: right;
-		padding: 10px;
-		color: #fff;
-		border-radius: 4px;
-		background: #f87e47;
-		border-bottom: 3px solid #d4561d;
+  .page-name {
+    @include span(7);
+    @include adjust-font-size-to(16px);
 
-		&:hover {
-			color: $dark-blue-color;
-		}
-	}
+    color: $dark-blue-color;
+    font-family: 'Ubuntu Bold';
+    text-transform: uppercase;
 
+    span {
+      @include adjust-font-size-to(10px);
+
+      display: block;
+      font-family: 'Ubuntu Light';
+    }
+  }
+
+  .inquiry {
+    @include span(last 3);
+    @include adjust-font-size-to(13px);
+
+    padding: 10px;
+
+    background: #f87e47;
+
+    border-bottom: 3px solid #d4561d;
+    border-radius: 4px;
+    color: #fff;
+    font-family: 'Ubuntu Medium';
+    text-align: right;
+
+    &:hover {
+      color: $dark-blue-color;
+    }
+  }
 }

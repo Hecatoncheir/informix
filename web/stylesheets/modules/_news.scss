@@ -1,51 +1,51 @@
 .news {
   @include span(last 9);
-  @layout(global-box-sizing: border-box);
   @include border-box-sizing;
+
+  padding-left: get-gutter-width();
+  @layout(global-box-sizing: border-box);
 
   header {
     margin-bottom: get-gutter-width(8);
   }
 
-  padding-left: get-gutter-width();
 
+  article {
+    @include border-box-sizing;
 
-  article  {
-    width: span(3.5);
-    margin-right: get-gutter-width(6);
-    margin-bottom: get-gutter-width(6);
-    float: left;
-    background: #ffffff;
     border: 3px solid #e7eaee;
+    background: #fff;
+
+    float: left;
+    font-family: 'Ubuntu Light';
+    line-height: 1.2em;
+    margin-bottom: get-gutter-width(6);
+    margin-right: get-gutter-width(6);
+    width: span(3.5);
 
     &:hover {
       border-color: $orange-color;
     }
 
-
-    @include border-box-sizing;
-
-    font-family: 'Ubuntu Light';
-    line-height: 1.2em;
-
     time {
-      color: $dart-orange-color;
       padding: 10px 5px;
+
+      color: $dart-orange-color;
     }
 
     img {
-      width: 100%;
       height: auto;
+      width: 100%;
     }
 
     p {
-      color: #2f578c;
       padding: 10px 5px;
+
+      color: #2f578c;
     }
 
     a {
       color: #2f578c;
     }
   }
-
 }

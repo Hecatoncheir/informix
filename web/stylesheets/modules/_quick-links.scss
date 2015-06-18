@@ -1,15 +1,16 @@
 .quick-links {
-	@include span (last 5);
-	a {
-		@include span (last 2 of 5);
-		color: #709cca;
-		font-family: 'Ubuntu Light';
-		@include adjust-font-size-to(12px);
-		text-align: right;
-		margin-top: get-gutter-width();
+  @include span (last 5);
+  a {
+    @include span (last 2 of 5);
+    @include adjust-font-size-to(12px);
 
-		&:hover {
-			color: $dart-orange-color;
-		}
-	}
+    color: #709cca;
+    font-family: 'Ubuntu Light';
+    margin-top: get-gutter-width();
+    text-align: right;
+
+    &:hover {
+      color: $dart-orange-color;
+    }
+  }
 }

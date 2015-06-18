@@ -1,31 +1,37 @@
 .page-cover {
-	@include span(last 11);
-	height: span(4);
-	display: block;
-	margin-top: get-gutter-width(15);
-	margin-bottom: get-gutter-width(15);
-	position: relative;
+  @include span(last 11);
 
-	img {
-		width: 100%;
-		height: auto;
-		-webkit-box-shadow: 0 12px 27px -13px rgba(0,0,0,0.2);
+  display: block;
+  height: span(4);
+  margin-bottom: get-gutter-width(15);
+  margin-top: get-gutter-width(15);
+  position: relative;
+
+  img {
+    -webkit-box-shadow: 0 12px 27px -13px rgba(0,0,0,0.2);
        -moz-box-shadow: 0 12px 27px -13px rgba(0,0,0,0.2);
-        box-shadow: 0 12px 27px -13px rgba(0,0,0,0.2);
-	}
+            box-shadow: 0 12px 27px -13px rgba(0,0,0,0.2);
+    height: auto;
+    width: 100%;
+  }
 
-	footer {
-		@include span (3);
-		left: span(1);
-		bottom: span(5);
-		position: absolute;
-	}
+  footer {
+    @include span (3);
 
-	span {
-		background: #fff;
-		color: $orange-color;
-		padding: 2px 7px;
-		@include adjust-font-size-to(18px);
-		font-family: 'Ubuntu Bold';
-	}
+    left: span(1);
+    bottom: span(5);
+
+    position: absolute;
+  }
+
+  span {
+    @include adjust-font-size-to(18px);
+
+    padding: 2px 7px;
+
+    background: #fff;
+
+    color: $orange-color;
+    font-family: 'Ubuntu Bold';
+  }
 }
