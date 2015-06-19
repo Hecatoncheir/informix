@@ -59,6 +59,24 @@
   width: 8px;
 }
 
+.materials {
+  .prew {
+    background: url('../images/materials-arrow.png') no-repeat;
+    width: 14px;
+    height: 14px;
+    background-size: contain;
+    display: block;
+    float: left;
+    margin-top: 6px;
+    cursor: pointer;
+  }
+  .next {
+    @extend .prew;
+    transform: rotate(180deg);
+    float: left;
+  }
+}
+
 //SOCIAL
 
 //.fb {
