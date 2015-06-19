@@ -1,0 +1,99 @@
+.page-news {
+  @include container(80em);
+  @include layout(12 0 inside);
+
+  clear: both;
+  margin-left: span(2);
+  margin-right: span(1.1);
+
+  .news-masonry {
+    @include span(6);
+  }
+
+  article {
+    @include adjust-font-size-to(13px);
+
+    border: 2px solid #f4f7fa;
+    background: #fff;
+
+    font-family: 'Ubuntu Regular';
+    margin-bottom: span(0.5);
+    margin-right: span(0.1);
+    width: span(5.5);
+
+    header {
+      padding: 15px;
+
+      background: #d34e24;
+
+      color: #fff;
+      position: relative;
+
+      .arrow {
+        left: get-gutter-width(6);
+        bottom: -4px;
+
+        background: #d34e24;
+
+        display: block;
+        height: 8px;
+        position: absolute;
+        transform: rotate(45deg);
+        width: 8px;
+      }
+    }
+
+    &:nth-child(2n) header {
+      background: #eeede6;
+
+      color: #d34e24;
+
+      .arrow {
+        background: #eeede6;
+      }
+    }
+
+    &:nth-child(3n) header {
+      background: #a3a199;
+
+      color: #fff;
+
+      .arrow {
+        background: #a3a199;
+      }
+    }
+
+    &:nth-child(4n) header {
+      background: #f28123;
+
+      color: #fff;
+
+      .arrow {
+        background: #f28123;
+      }
+    }
+
+
+    .content {
+      padding: 10px;
+
+      ul {
+        margin: 0;
+        padding: 0;
+
+        list-style: none;
+      }
+
+      li {
+        padding-left: 1em;
+        text-indent: -0.7em;
+      }
+
+      li:before {
+        color: $dart-orange-color;
+        content: "• ";
+        font-size: 18px;
+      }
+    }
+  }
+}

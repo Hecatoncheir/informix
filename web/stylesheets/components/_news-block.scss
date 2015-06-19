@@ -1,5 +1,6 @@
 @import "../modules/main-new";
 @import "../modules/news";
+@import "../modules/page-news";
 
 .news-block {
   @include container(80em);
