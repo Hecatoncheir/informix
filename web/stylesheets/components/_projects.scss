@@ -1,0 +1,34 @@
+.projects {
+  @include container(80em);
+  @include layout(12 0 inside);
+
+  clear: both;
+  margin-left: span(2);
+  margin-right: span(1.1);
+
+  nav {
+    @include span(8);
+    a {
+      color: $dart-orange-color;
+      text-transform: uppercase;
+      @include adjust-font-size-to(14px);
+    }
+
+    .out-link {
+      color: #b4b4c0;
+      @include adjust-font-size-to(12px);
+    }
+  }
+
+  .counter {
+    @include span(last 2);
+    color: #b4b4c0;
+    text-align: right;
+    span {
+      padding: 0 5px;
+      display: inline-block;
+      color: $orange-color;
+    }
+  }
+
+}
