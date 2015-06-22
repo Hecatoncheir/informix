@@ -11,14 +11,12 @@
   .header-items {
     @include container(80em);
     @include span(10);
+    @include breakpoint(min-width 1600px) {
+      margin-left: span(2);
+    }
 
     margin-left: span(1);
     padding-top: 73px; //91px-14px
-
-
-    @include breakpoint(min-width 1600px){
-      margin-left: span(2);
-    }
 
 
     .header-logo {
@@ -31,19 +29,15 @@
     .search {
       @include span(2);
       @extend .search;
-
-      @include breakpoint(min-width 800px){
+      @include breakpoint(min-width 800px) {
         @include span(3);
       }
-
-      @include breakpoint(min-width 1200px){
+      @include breakpoint(min-width 1200px) {
         @include span(3.5);
       }
-
-      @include breakpoint(min-width 1400px){
+      @include breakpoint(min-width 1400px) {
         @include span(5);
       }
-
 
       margin-top: 36px;
     }
@@ -51,16 +45,13 @@
 
     .main-menu {
       @include span(last 3);
-
-      @include breakpoint(min-width 800px){
+      @include breakpoint(min-width 800px) {
         @include span(last 4);
       }
-
-      @include breakpoint(min-width 1200px){
+      @include breakpoint(min-width 1200px) {
         @include span(last 3.5);
       }
-
-      @include breakpoint(min-width 1300px){
+      @include breakpoint(min-width 1300px) {
         @include span(last 3);
       }
 

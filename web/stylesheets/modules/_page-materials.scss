@@ -75,7 +75,6 @@
     @include adjust-font-size-to(12px);
 
     padding: 3px;
-    padding-right: 0;
 
     background: #b4b4c0;
 
@@ -84,6 +83,7 @@
     color: #fff;
     font-family: 'Ubuntu Light';
     margin-bottom: 20px;
+    padding-right: 0;
     //margin-right: span(0.3);
     //margin-top: 10px;
     text-align: center;
