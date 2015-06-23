@@ -90,6 +90,24 @@
   top: 12px;
 }
 
+.projects-arrow-left {
+  width: 27px;
+  height: 36px;
+  position: absolute;
+  top: 45%;
+  left: span(0.08);
+  cursor: pointer;
+  display: block;
+  background: url("../images/icons/projects-arrow.png") no-repeat;
+  background-size: contain;
+}
+
+.projects-arrow-right {
+  @extend .projects-arrow-left;
+  left: span(11.65);
+  transform: rotate(180deg);
+}
+
 //SOCIAL
 
 //.fb {
