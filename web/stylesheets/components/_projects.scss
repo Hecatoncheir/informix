@@ -74,72 +74,72 @@
   }
 
   .projects-content {
-    clear: both;
-    min-height: 40px;
-    background: #f1f2f5;
-    border-top: 1px solid #ffffff;
-    border-bottom: 3px solid $dart-orange-color;
-    margin-bottom: 20px;
-    position: relative;
-
-    -webkit-box-shadow: 0 12px 27px -13px rgba(0,0,0,0.2);
-    -moz-box-shadow: 0 12px 27px -13px rgba(0,0,0,0.2);
-    box-shadow: 0 12px 27px -13px rgba(0,0,0,0.2);
-
     padding: 15px 20px;
+
+    background: #f1f2f5;
+
+    border-bottom: 3px solid $dart-orange-color;
+    border-top: 1px solid #fff;
+    -webkit-box-shadow: 0 12px 27px -13px rgba(0,0,0,0.2);
+       -moz-box-shadow: 0 12px 27px -13px rgba(0,0,0,0.2);
+            box-shadow: 0 12px 27px -13px rgba(0,0,0,0.2);
+    clear: both;
+    margin-bottom: 20px;
+    min-height: 40px;
     padding-right: 0;
+    position: relative;
 
     article {
       @include span(2.6);
       @include adjust-font-size-to(10px);
 
-      border-left: 1px solid #b4b4c0;
-      margin-left: -1px;
-
-      border-right: 1px solid #b4b4c0;
-
       padding: 0 15px;
 
+      border-left: 1px solid #b4b4c0;
+      border-right: 1px solid #b4b4c0;
+      margin-left: -1px;
       min-height: 210px;
 
       a {
-        min-height: 120px;
         display: block;
+        min-height: 120px;
       }
 
       img {
-        width: span(6);
-        height: auto;
-        float: none;
-        margin: 0 auto;
-        display: block;
-        position: relative;
         top: 50%;
+
+        margin: 0 auto;
+
+        display: block;
+        float: none;
+        height: auto;
+        position: relative;
+        width: span(6);
       }
 
       .project-name {
-        display: inline-block;
-        clear: both;
-        float: none;
         @include adjust-font-size-to(24px);
-        font-family: 'Ubuntu Regular';
+
         padding: 5px 0 5px 0;
+
+        clear: both;
+        display: inline-block;
+        float: none;
+        font-family: 'Ubuntu Regular';
       }
 
-      .project-category{
+      .project-category {
         clear: both;
-        display: block;
         color: $orange-color;
+        display: block;
         margin-bottom: 10px;
       }
 
       p {
-        display: inline-block;
         @include adjust-font-size-to(18px);
+
+        display: inline-block;
       }
-
     }
-
   }
-
 }
