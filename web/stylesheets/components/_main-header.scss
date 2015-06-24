@@ -20,12 +20,14 @@
 
     @include breakpoint(min-width 700px){
       margin-left: 0;
+      padding-top: 20px;
       @include span(9);
     }
 
     @include breakpoint(min-width 1000px){
       margin-left: span(1);
       @include span(10);
+      padding-top: 73px;
     }
 
     .header-logo {
