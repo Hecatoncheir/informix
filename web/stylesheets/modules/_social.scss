@@ -4,6 +4,9 @@
 
   padding-top: 5px;
 
+  @include breakpoint(min-width 700px){
+    /*margin-right: span(3);*/
+  }
 
   @include breakpoint(min-width 1000px) {
     @include span(last 3);

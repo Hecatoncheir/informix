@@ -6,7 +6,7 @@
   @layout(global-box-sizing: border-box);
 
   @include breakpoint(min-width 700px){
-    @include span(4);
+    @include span(7);
   }
 
   @include breakpoint(min-width 1000px){
@@ -30,6 +30,14 @@
     margin-bottom: get-gutter-width(6);
     margin-right: get-gutter-width(6);
     width: span(3.5);
+
+    @include breakpoint(min-width 700px){
+      width: span(5.2); 
+    }
+
+    @include breakpoint(min-width 1000px){
+      width: span(3.5); 
+    }
 
     &:hover {
       border-color: $orange-color;
