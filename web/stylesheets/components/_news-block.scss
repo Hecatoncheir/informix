@@ -6,8 +6,14 @@
 .news-block {
   @include container(80em);
   @include layout(12 0 inside);
+  @include breakpoint(min-width 700px){
+    margin-left: span(0.1);
+  }
   @include breakpoint(min-width 800px) {
     padding-top: span(0.5);
+  }
+  @include breakpoint(min-width 1000px){
+    margin-left: span(2);
   }
   @include breakpoint(min-width 1200px) {
     padding-top: span(0.6);
