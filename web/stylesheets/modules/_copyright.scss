@@ -22,9 +22,12 @@
 
     @include breakpoint(min-width 700px){
       margin-left: span(0.2);
+      /*width: span(8);*/
+      padding-right: span(2);
     }
     @include breakpoint(min-width 1000px){
       margin-left: span(1.83);
+      padding-right: 0;
     }
   }
 }
