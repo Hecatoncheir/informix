@@ -20,6 +20,12 @@
     margin-left: span(1.83);
     margin-right: span(1);
 
+    @include breakpoint(min-width 700px){
+      margin-left: span(0.2);
+    }
+    @include breakpoint(min-width 1000px){
+      margin-left: span(1.83);
+    }
   }
 }
 
