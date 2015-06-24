@@ -17,6 +17,12 @@
 
   .footer-menu {
     @include span(8.5);
+    @include breakpoint(min-width 1000px){
+      @include span(7);
+    }
+    @include breakpoint(min-width 1100px){
+      @include span(8.5);
+    }
   }
 
   a {

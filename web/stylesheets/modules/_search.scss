@@ -35,5 +35,9 @@
     margin-top: -30px;
     outline: none;
     width: 21px;
+
+    @include breakpoint(min-width 1000px) {
+      margin-right: -20%;
+    }
   }
 }

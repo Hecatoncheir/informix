@@ -4,6 +4,15 @@
 
   padding-top: 5px;
 
+
+  @include breakpoint(min-width 1000px) {
+    @include span(last 3);
+  }
+
+  @include breakpoint(min-width 1100px){
+    @include span(last 1.8);
+  }
+
   a {
     display: block;
     float: left;
