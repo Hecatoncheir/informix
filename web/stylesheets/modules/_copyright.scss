@@ -16,19 +16,18 @@
   .footer-content {
     @include layout(11);
     @include container(80em);
-
-    margin-left: span(1.83);
-    margin-right: span(1);
-
-    @include breakpoint(min-width 700px){
+    @include breakpoint(min-width 700px) {
       margin-left: span(0.2);
       /*width: span(8);*/
       padding-right: span(2);
     }
-    @include breakpoint(min-width 1000px){
+    @include breakpoint(min-width 1000px) {
       margin-left: span(1.83);
       padding-right: 0;
     }
+
+    margin-left: span(1.83);
+    margin-right: span(1);
   }
 }
 

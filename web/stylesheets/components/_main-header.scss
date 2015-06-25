@@ -11,66 +11,67 @@
   .header-items {
     @include container(80em);
     @include span(10);
-
-    margin-left: span(1);
-    padding-top: 73px; //91px-14px
-
-    @include breakpoint(min-width 300px){
+    @include breakpoint(min-width 300px) {
       @include span(4);
     }
-
-    @include breakpoint(min-width 600px){
+    @include breakpoint(min-width 600px) {
       @include span(11);
     }
+    @include breakpoint(min-width 700px) {
+      @include span(9);
 
-    @include breakpoint(min-width 700px){
       margin-left: 0;
       padding-top: 20px;
-      @include span(9);
     }
-
-    @include breakpoint(min-width 1000px){
-      margin-left: span(1);
+    @include breakpoint(min-width 1000px) {
       @include span(10);
+
+      margin-left: span(1);
       padding-top: 73px;
     }
-
     @include breakpoint(min-width 1600px) {
       margin-left: span(2);
     }
 
+    margin-left: span(1);
+    padding-top: 73px; //91px-14px
+
     .header-logo {
       @include span(3);
       @extend .logotype;
-
-      min-width: 300px;
-      outline: none;
-      
-      @include breakpoint(min-width 300px){
+      @include breakpoint(min-width 300px) {
         @include span(6);
+
         margin-left: span(1);
       }
-
-      @include breakpoint(min-width 600px){
+      @include breakpoint(min-width 600px) {
         @include span(3);
+
         margin-left: auto;
       }
 
+      min-width: 300px;
+      outline: none;
     }
 
     .search {
       @include span(2);
       @extend .search;
+      @include breakpoint(min-width 700px) {
+        @include span(4);
 
-      @include breakpoint(min-width 700px){
-        @include span(6);
+        clear: both;
+        margin-top: -80px;
       }
+      @include breakpoint(min-width 760px) {
+        @include span(6);
 
+        clear: none;
+        margin-top: 34px;
+      }
       //@include breakpoint(min-width 800px) {
       //  @include span(3);
       //}
-
-
       @include breakpoint(min-width 1200px) {
         @include span(3.5);
       }
@@ -84,29 +85,39 @@
 
     .main-menu {
       @include span(last 3);
+      @include breakpoint(min-width 700px) {
+        @include span(last 6.5);
 
-      @include breakpoint(min-width 700px){
+        margin-bottom: 70px;
+        margin-top: -70px;
+      }
+      @include breakpoint(min-width 760px) {
         @include span(5);
+
         clear: both;
         float: left;
         margin-left: span(5);
         margin-top: -80px;
       }
+      @include breakpoint(min-width 770px) {
+        @include span(5.5);
+      }
+      /*@include breakpoint(min-width 900px){*/
+      /*}*/
       //@include breakpoint(min-width 800px) {
       //  @include span(last 4);
       //}
-      @include breakpoint(min-width 1000px){
-        clear: none;
-        margin-top: 24px;
-        margin-left: 0;
-        float: none;
+      @include breakpoint(min-width 1000px) {
         @include span(last 4);
-      }
 
-      @include breakpoint(min-width 1100px){
+        clear: none;
+        float: none;
+        margin-left: 0;
+        margin-top: 24px;
+      }
+      @include breakpoint(min-width 1100px) {
         margin-top: 44px;
       }
-
       @include breakpoint(min-width 1200px) {
         @include span(last 3.5);
       }
@@ -119,51 +130,50 @@
 
       a {
         @include adjust-font-size-to(12px);
+        @include breakpoint(min-width 700px) {
+          margin-left: 0;
+          text-align: left;
+        }
+        @include breakpoint(min-width 1000px) {
+          clear: none;
+          float: left;
+          margin-right: 50px;
+        }
 
         color: $dark-blue-color;
         float: left;
         margin-right: 50px;
         text-transform: uppercase;
-
-        @include breakpoint(min-width 700px){
-          margin-left: 0;
-          text-align: left;
-        }
-        @include breakpoint(min-width 1000px){
-          clear: none;
-          margin-right: 50px;
-          float: left;
-        }
-
       }
       a:hover {
         color: $orange-color;
       }
 
       a:last-child {
-        float: right;
-        margin-left: -50px;
-        margin-right: 0;
-        @include breakpoint(min-width 700px){
+        @include breakpoint(min-width 700px) {
           float: left;
           margin-left: 0;
         }
-        @include breakpoint(min-width 1000px){
+        @include breakpoint(min-width 1000px) {
           float: right;
           margin-left: -50px;
           margin-right: 0;
         }
+
+        float: right;
+        margin-left: -50px;
+        margin-right: 0;
       }
 
       a:first-child {
-        margin-left: 30px;
-
-        @include breakpoint(min-width 700px){
+        @include breakpoint(min-width 700px) {
           margin-left: 0;
         }
-        @include breakpoint(min-width 1000px){
+        @include breakpoint(min-width 1000px) {
           margin-left: 30px;
         }
+
+        margin-left: 30px;
       }
 
       .change-language {

@@ -7,33 +7,31 @@
   .footer-content {
     @include layout(11);
     @include container(80em);
+    @include breakpoint(min-width 700px) {
+      margin-left: span(0.2);
+      margin-right: span(0);
+    }
+    @include breakpoint(min-width 1000px) {
+      margin-left: span(1.83);
+      margin-right: span(1);
+    }
 
     padding: 10px 0;
 
     margin-left: span(1.83);
     margin-right: span(1);
-
-    @include breakpoint(min-width 700px){
-      margin-left: span(0.2);
-      margin-right: span(0);
-    }
-
-    @include breakpoint(min-width 1000px){
-      margin-left: span(1.83);
-      margin-right: span(1);
-    }
   }
 
 
   .footer-menu {
     @include span(8.5);
-    @include breakpoint(min-width 700px){
+    @include breakpoint(min-width 700px) {
       @include span(4);
     }
-    @include breakpoint(min-width 1000px){
+    @include breakpoint(min-width 1000px) {
       @include span(7);
     }
-    @include breakpoint(min-width 1100px){
+    @include breakpoint(min-width 1100px) {
       @include span(8.5);
     }
   }

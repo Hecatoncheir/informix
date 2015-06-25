@@ -1,22 +1,21 @@
 @import '../modules/icons';
 .social-menu {
   @include span(last 1.8);
-
-  padding-top: 5px;
-
-  @include breakpoint(min-width 700px){
+  @include breakpoint(min-width 700px) {
     margin-right: span(3);
   }
-
   @include breakpoint(min-width 1000px) {
     @include span(last 3);
+
     margin-right: - span(1);
   }
-
-  @include breakpoint(min-width 1100px){
+  @include breakpoint(min-width 1100px) {
     @include span(last 1.8);
+
     margin-right: 0;
   }
+
+  padding-top: 5px;
 
   a {
     display: block;

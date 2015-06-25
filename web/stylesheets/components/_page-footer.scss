@@ -4,15 +4,16 @@
 @import "../modules/mini-footer";
 
 .page-footer {
-  clear: both;
-  width: 100%;
-  @include breakpoint(min-width 700px){
+  @include breakpoint(min-width 700px) {
     /*@include span(8.4); */
   }
-  @include breakpoint(min-width 1000px){
+  @include breakpoint(min-width 1000px) {
+    float: none;
     width: 100%;
-    float:none;
   }
+
+  clear: both;
+  width: 100%;
 }
 
 .footer-content {
