@@ -36,6 +36,10 @@
     outline: none;
     width: 21px;
 
+    /*@include breakpoint(min-width 600px){*/
+      /*clear: none;      */
+    /*}*/
+
     @include breakpoint(min-width 700px){
       margin-right: -19%;
     }

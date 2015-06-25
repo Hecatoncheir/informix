@@ -112,4 +112,17 @@
       background-color: #d86820;
     }
   }
+
+
+  @include breakpoint(min-width 200px){
+    display: none;
+  }
+
+  @include breakpoint(min-width 600px){
+    display:none;
+  }
+  @include breakpoint(min-width 700px){
+    display:block;
+  }
+
 }
