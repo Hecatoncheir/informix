@@ -11,7 +11,7 @@
   .header-items {
     @include container(80em);
     @include span(10);
-    @include breakpoint(min-width 300px) {
+    @include breakpoint(min-width 400px) {
       @include span(4);
     }
     @include breakpoint(min-width 600px) {
@@ -57,21 +57,29 @@
     .search {
       @include span(2);
       @extend .search;
-      @include breakpoint(min-width 700px) {
+      @include breakpoint(min-width 200px){
+        margin-top: -90px;
+      }
+      @include breakpoint(min-width 400px) {
         @include span(4);
 
         clear: both;
         margin-top: -80px;
+        margin-bottom: 50px;
       }
       @include breakpoint(min-width 760px) {
         @include span(6);
 
         clear: none;
+        /*margin-top: 34px;*/
+
+      }
+      @include breakpoint(min-width 818px) {
         margin-top: 34px;
       }
-      //@include breakpoint(min-width 800px) {
-      //  @include span(3);
-      //}
+      @include breakpoint(min-width 1000px){
+        margin-bottom: 0;
+      }
       @include breakpoint(min-width 1200px) {
         @include span(3.5);
       }
@@ -85,9 +93,18 @@
 
     .main-menu {
       @include span(last 3);
+      @include breakpoint(min-width 200px){
+        margin-top: -90px;
+      }
+      @include breakpoint(min-width 600px){
+        @include span(last 5);
+        margin-right: span(2);
+        margin-top: -70px;
+      }
       @include breakpoint(min-width 700px) {
         @include span(last 6.5);
 
+        margin-right: 0;
         margin-bottom: 70px;
         margin-top: -70px;
       }
@@ -96,11 +113,15 @@
 
         clear: both;
         float: left;
-        margin-left: span(5);
+        margin-left: span(8);
         margin-top: -80px;
       }
       @include breakpoint(min-width 770px) {
         @include span(5.5);
+      }
+
+      @include breakpoint(min-width 818px){
+        margin-left: span(6);
       }
       /*@include breakpoint(min-width 900px){*/
       /*}*/
@@ -111,7 +132,6 @@
         @include span(last 4);
 
         clear: none;
-        float: none;
         margin-left: 0;
         margin-top: 24px;
       }
@@ -130,7 +150,11 @@
 
       a {
         @include adjust-font-size-to(12px);
+        @include breakpoint(min-width 400px){
+          margin-right: 15px;
+        }
         @include breakpoint(min-width 700px) {
+          float: left;
           margin-left: 0;
           text-align: left;
         }
