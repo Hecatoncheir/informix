@@ -3,6 +3,13 @@
 
   position: relative;
 
+  @include breakpoint(min-width 600px){
+    display:none;
+  }
+  @include breakpoint(min-width 700px){
+    display: block;
+  }
+
   header {
     padding: 10px;
 

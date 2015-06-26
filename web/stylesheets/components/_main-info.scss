@@ -44,12 +44,6 @@
 
     .tooltip {
       @include adjust-font-size-to(14px);
-      @include breakpoint(min-width 700px){
-        @include adjust-font-size-to(10px);
-      }
-      @include breakpoint(min-width 760px){
-        @include adjust-font-size-to(14px);
-      }
 
       top: 0;
       left: span(13);
@@ -67,7 +61,20 @@
       visibility: hidden;
       //width: span(25);
       width: 0;
-      z-index: 9 !important;
+      z-index: 99 !important;
+
+      @include breakpoint(min-width 600px){
+        visibility: visible;
+        width: span(125);
+      }
+      @include breakpoint(min-width 700px){
+        @include adjust-font-size-to(10px);
+        visibility: hidden;
+      }
+      @include breakpoint(min-width 760px){
+        @include adjust-font-size-to(14px);
+      }
+
     }
 
     img {
@@ -79,6 +86,12 @@
         display: block;
         visibility: visible;
         width: span(45);
+        @include breakpoint(min-width 600px){
+          width: span(125);
+        }
+        @include breakpoint(min-width 700px){
+          width: span(45);
+        }
       }
     }
 
