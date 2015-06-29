@@ -25,10 +25,10 @@
 
   .footer-menu {
     @include span(8.5);
-    @include breakpoint(min-width 300px){
+    @include breakpoint(min-width 300px) {
       @include span(8);
     }
-    @include breakpoint(min-width 600px){
+    @include breakpoint(min-width 600px) {
       @include span(11);
     }
     @include breakpoint(min-width 700px) {
@@ -44,21 +44,20 @@
 
   a {
     @include adjust-font-size-to(13px);
-
-    color: $dark-blue-color;
-    font-family: 'Ubuntu Regular';
-    margin-right: 10px;
-
-    @include breakpoint(min-width 300px){
+    @include breakpoint(min-width 300px) {
       clear: both;
-      float:left;
+      float: left;
       margin-bottom: 10px;
     }
-    @include breakpoint (min-width 600px){
+    @include breakpoint (min-width 600px) {
       clear: none;
       float: none;
       margin-bottom: auto;
     }
+
+    color: $dark-blue-color;
+    font-family: 'Ubuntu Regular';
+    margin-right: 10px;
 
     &:last-child {
       margin-right: 0;

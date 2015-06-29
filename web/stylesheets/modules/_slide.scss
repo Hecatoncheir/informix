@@ -1,14 +1,13 @@
 .slides {
   @include span(last 11);
-
-  position: relative;
-
-  @include breakpoint(min-width 300px){
-    display:none;
+  @include breakpoint(min-width 300px) {
+    display: none;
   }
-  @include breakpoint(min-width 700px){
+  @include breakpoint(min-width 700px) {
     display: block;
   }
+
+  position: relative;
 
   header {
     padding: 10px;

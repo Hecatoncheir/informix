@@ -16,10 +16,14 @@
   .footer-content {
     @include layout(11);
     @include container(80em);
+    @include breakpoint(min-width 300px) {
+      margin-left: - span(0.5);
+    }
     @include breakpoint(min-width 700px) {
       margin-left: span(0.2);
       /*width: span(8);*/
       padding-right: span(2);
+      width: auto;
     }
     @include breakpoint(min-width 1000px) {
       margin-left: span(1.83);
@@ -33,6 +37,17 @@
 
 .tanais-gr {
   @include span(2);
+  @include breakpoint(min-width 300px) {
+    clear: both;
+    float: left;
+    text-align: center;
+    width: span(12);
+  }
+  @include breakpoint (min-width 700px) {
+    clear: none;
+    text-align: left;
+    width: span(2);
+  }
 
   margin-top: 15px;
   span {
@@ -42,6 +57,20 @@
 
 .copylinks {
   @include span(3);
+  @include breakpoint(min-width 300px) {
+    clear: both;
+    float: left;
+    margin-left: 0;
+    text-align: center;
+    width: span(12);
+  }
+  @include breakpoint(min-width 700px) {
+    clear: none;
+    float: left;
+    margin-left: span(2);
+    text-align: center;
+    width: span(3);
+  }
 
   margin-left: span(2);
   text-align: center;
@@ -56,6 +85,18 @@
 
 .copy {
   @include span(last 3);
+  @include breakpoint(min-width 300px) {
+    clear: both;
+    float: left;
+    text-align: center;
+    width: span(12);
+  }
+  @include breakpoint(min-width 700px) {
+    clear: none;
+    float: right;
+    text-align: right;
+    width: span(last 3);
+  }
 
   margin-top: 15px;
   text-align: right;
