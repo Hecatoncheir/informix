@@ -1,8 +1,14 @@
 @import '../modules/icons';
 .social-menu {
   @include span(last 1.8);
+  @include breakpoint(min-width 600px){
+    width: span(4);
+    float:none;
+    margin: 0 auto;
+  }
   @include breakpoint(min-width 700px){
     @include span(last 3);
+    margin: 0;
     margin-right: span(2);
   }
   @include breakpoint(min-width 760px) {

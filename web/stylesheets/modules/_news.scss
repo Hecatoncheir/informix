@@ -18,6 +18,9 @@
 
   article {
     @include border-box-sizing;
+    @include breakpoint(min-width 600px){
+      width: span(11);
+    }
     @include breakpoint(min-width 700px) {
       width: span(5.2);
     }

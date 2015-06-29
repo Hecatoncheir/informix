@@ -21,6 +21,11 @@
 
 
   article {
+    @include breakpoint(min-width 600px){
+      width: span(12);
+      clear: both;
+
+    }
     @include breakpoint(min-width 700px){
       width: span(5);
       min-height: span(5);

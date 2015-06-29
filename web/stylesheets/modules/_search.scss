@@ -26,6 +26,9 @@
 
   #search-submit {
     @include span(last 1);
+    @include breakpoint(min-width 600px){
+      margin-right: -18%;
+    }
     @include breakpoint(min-width 700px) {
       margin-right: -16%;
     }
