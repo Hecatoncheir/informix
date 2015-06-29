@@ -45,7 +45,7 @@
         min-width: 100px;
         margin-top: - span(2);
       }
-      @include breakpoint(min-width 570px){
+      @include breakpoint(min-width 560px){
         margin-bottom: 30px;
       }
       @include breakpoint(min-width 600px) {
@@ -67,11 +67,15 @@
         @include span(10);
       }
       @include breakpoint(min-width 400px) {
-        @include span(4);
+        @include span(10);
 
         clear: both;
         margin-top: -80px;
         margin-bottom: 50px;
+      }
+      @include breakpoint (min-width 540px){
+        @include span(4);
+        margin-top: -85px;
       }
       @include breakpoint(min-width 760px) {
         @include span(6);
@@ -102,17 +106,23 @@
       @include breakpoint(min-width 200px){
         margin-top: -90px;
       }
+      @include breakpoint(min-width 300px){
+        clear: both;
+        margin-top: -20px;
+        margin-bottom: 50px;
+        @include span(10);
+      }
       @include breakpoint(min-width 600px){
         @include span(last 5);
         margin-right: span(2);
-        margin-top: -70px;
+        margin-top: -85px;
       }
       @include breakpoint(min-width 700px) {
         @include span(last 6.5);
 
         margin-right: 0;
         margin-bottom: 70px;
-        margin-top: -70px;
+        margin-top: -90px;
       }
       @include breakpoint(min-width 760px) {
         @include span(5);
@@ -128,6 +138,8 @@
 
       @include breakpoint(min-width 818px){
         margin-left: span(6);
+        margin-top: -110px;
+        margin-bottom: -50px;
       }
       /*@include breakpoint(min-width 900px){*/
       /*}*/
@@ -156,6 +168,11 @@
 
       a {
         @include adjust-font-size-to(12px);
+        @include breakpoint(min-width 300px){
+          float: left;
+          text-align: left;
+          margin-right: 10;
+        }
         @include breakpoint(min-width 400px){
           margin-right: 15px;
         }
@@ -180,7 +197,7 @@
       }
 
       a:last-child {
-        @include breakpoint(min-width 700px) {
+        @include breakpoint(min-width 300px) {
           float: left;
           margin-left: 0;
         }
@@ -196,7 +213,7 @@
       }
 
       a:first-child {
-        @include breakpoint(min-width 700px) {
+        @include breakpoint(min-width 300px) {
           margin-left: 0;
         }
         @include breakpoint(min-width 1000px) {
