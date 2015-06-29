@@ -3,7 +3,7 @@
 
   position: relative;
 
-  @include breakpoint(min-width 600px){
+  @include breakpoint(min-width 300px){
     display:none;
   }
   @include breakpoint(min-width 700px){

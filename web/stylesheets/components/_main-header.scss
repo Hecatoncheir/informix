@@ -74,8 +74,10 @@
         margin-bottom: 50px;
       }
       @include breakpoint (min-width 540px){
-        @include span(4);
         margin-top: -85px;
+      }
+      @include breakpoint(min-width 600px){
+        @include span(4);
       }
       @include breakpoint(min-width 760px) {
         @include span(6);

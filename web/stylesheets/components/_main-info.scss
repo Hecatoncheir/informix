@@ -5,8 +5,13 @@
   @include layout(12);
   @include container(80em);
   @include span(10);
+  @include breakpoint(min-width 300px){
+    margin-bottom: 30px;
+    margin-left: 0;
+  }
   @include breakpoint(min-width 600px){
     margin-bottom: 40px;
+    margin-left: span(1);
   }
   @include breakpoint(min-width 700px) {
     @include span(9.3);
@@ -45,6 +50,13 @@
     position: relative;
     width: 100%;
 
+    @include breakpoint(min-width 300px){
+      margin-bottom: 30px;
+    }
+    @include breakpoint(min-width 600px){
+      margin-bottom: 5px;
+    }
+
     .tooltip {
       @include adjust-font-size-to(14px);
 
@@ -66,9 +78,15 @@
       width: 0;
       z-index: 99 !important;
 
-      @include breakpoint(min-width 600px){
+      @include breakpoint(min-width 300px){
         visibility: visible;
+        width: span(115);
+        padding-bottom: 30px;
+      }
+
+      @include breakpoint(min-width 600px){
         width: span(125);
+        padding-bottom: auto;
       }
       @include breakpoint(min-width 700px){
         @include adjust-font-size-to(10px);
@@ -90,6 +108,9 @@
         display: block;
         visibility: visible;
         width: span(45);
+        @include breakpoint (min-width 300px){
+          width: span(115);
+        }
         @include breakpoint(min-width 600px){
           width: span(125);
         }
