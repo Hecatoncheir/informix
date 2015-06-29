@@ -1,6 +1,17 @@
 .news {
   @include span(last 9);
   @include border-box-sizing;
+  @include breakpoint(min-width 300px){
+    @include span(last 11);
+    margin-top: 10px;
+  }
+  @include breakpoint(min-width 400px){
+    @include span( last 7);
+    margin-top: 0;
+  }
+  @include breakpoint(min-width 600px){
+    @include span(last 7);
+  }
   @include breakpoint(min-width 700px) {
     @include span(7);
   }
@@ -13,16 +24,34 @@
 
   header {
     margin-bottom: get-gutter-width(8);
+    @include breakpoint(min-width 400px){
+      @include adjust-font-size-to(10px);
+    }
+    @include breakpoint(min-width 500px){
+      @include adjust-font-size-to(16px);
+    }
   }
 
 
   article {
     @include border-box-sizing;
+    @include breakpoint(min-width 300px){
+      width: span(12);
+    }
+    @include breakpoint(min-width 400px){
+      width: span(12);
+      margin-left: 5px;
+      margin-top: 5px;
+    }
     @include breakpoint(min-width 600px){
-      width: span(11);
+      width: span(12);
+      margin-left: 5px;
+      margin-top: 10px;
     }
     @include breakpoint(min-width 700px) {
       width: span(5.2);
+      margin-left:0;
+      margin-top: 0;
     }
     @include breakpoint(min-width 1000px) {
       width: span(3.5);

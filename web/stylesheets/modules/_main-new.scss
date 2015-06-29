@@ -2,9 +2,16 @@ $main-new-image-height: 640/2*1px;
 
 .main-new {
   @include span(3);
+  @include breakpoint(min-width 300px){
+    @include span(11);
+    margin-left: span(1);
+  }
+  @include breakpoint(min-width 400px){
+    @include span(4);
+  }
   @include breakpoint(min-width 600px){
     @include span(4);
-    margin-left: - span(1);
+    margin-left:  span(1);
   }
   @include breakpoint(min-width 700px){
     @include span(3);
