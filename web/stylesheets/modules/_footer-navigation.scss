@@ -25,6 +25,9 @@
 
   .footer-menu {
     @include span(8.5);
+    @include breakpoint(min-width 300px){
+      @include span(8);
+    }
     @include breakpoint(min-width 600px){
       @include span(11);
     }
@@ -45,6 +48,17 @@
     color: $dark-blue-color;
     font-family: 'Ubuntu Regular';
     margin-right: 10px;
+
+    @include breakpoint(min-width 300px){
+      clear: both;
+      float:left;
+      margin-bottom: 10px;
+    }
+    @include breakpoint (min-width 600px){
+      clear: none;
+      float: none;
+      margin-bottom: auto;
+    }
 
     &:last-child {
       margin-right: 0;
