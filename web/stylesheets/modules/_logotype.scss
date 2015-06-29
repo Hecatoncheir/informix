@@ -5,4 +5,11 @@
   display: block;
   height: 187px;
   width: percentage(738px / $mid-width);
+  @include breakpoint(min-width 300px){
+    width: span(1);
+  }
+  @include breakpoint(min-width 600px){
+    height: 187px;
+    width: percentage(738px / $mid-width);
+  }
 }

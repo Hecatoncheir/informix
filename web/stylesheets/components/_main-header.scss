@@ -11,9 +11,6 @@
   .header-items {
     @include container(80em);
     @include span(10);
-    @include breakpoint(min-width 400px) {
-      @include span(4);
-    }
     @include breakpoint(min-width 600px) {
       @include span(11);
     }
@@ -39,19 +36,25 @@
     .header-logo {
       @include span(3);
       @extend .logotype;
-      @include breakpoint(min-width 300px) {
-        @include span(6);
-
-        margin-left: span(1);
-      }
-      @include breakpoint(min-width 600px) {
-        @include span(3);
-
-        margin-left: auto;
-      }
 
       min-width: 300px;
       outline: none;
+
+      @include breakpoint(min-width 300px) {
+        @include span(11);
+        min-width: 100px;
+        margin-top: - span(2);
+      }
+      @include breakpoint(min-width 570px){
+        margin-bottom: 30px;
+      }
+      @include breakpoint(min-width 600px) {
+        @include span(3);
+        min-width: 300px;
+        margin-top:0;
+
+        margin-left: auto;
+      }
     }
 
     .search {
@@ -59,6 +62,9 @@
       @extend .search;
       @include breakpoint(min-width 200px){
         margin-top: -90px;
+      }
+      @include breakpoint(min-width 300px){
+        @include span(10);
       }
       @include breakpoint(min-width 400px) {
         @include span(4);
