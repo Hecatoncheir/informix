@@ -6,6 +6,16 @@
   margin-bottom: 20px;
   margin-left: span(2);
   margin-right: span(1.1);
+  
+  @include breakpoint(min-width 700px){
+    margin-left: span(0.2);
+    margin-right: span(3);
+  }
+  @include breakpoint(min-width 1000px){
+    margin-left: span(2);
+    margin-right: span(1.1);
+  
+  }
 
   img {
     height: auto;
@@ -20,6 +30,13 @@
     font-family: 'Ubuntu Medium';
     margin-top: 20px;
     padding-top: 5px;
+  
+    @include breakpoint(min-width 700px){
+      @include span (last 2);
+    }
+    @include breakpoint(min-width 1000px){
+      @include span(last 1);
+    }
 
     &:hover {
       color: $dart-orange-color;

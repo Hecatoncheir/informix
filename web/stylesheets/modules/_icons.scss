@@ -104,6 +104,12 @@
   height: 36px;
   position: absolute;
   width: 27px;
+  @include breakpoint(min-width 700px){
+    left: span(0.10);
+  }
+  @include breakpoint(min-width 1000px){
+    left: span(0.08)
+  }
 }
 
 .projects-arrow-right {
@@ -112,6 +118,12 @@
   left: span(11.65);
 
   transform: rotate(180deg);
+  @include breakpoint(min-width 700px){
+    left: span(11.35);
+  }
+  @include breakpoint (min-width 1000px){
+    left: span(11.65);
+  }
 }
 
 .up-icon {

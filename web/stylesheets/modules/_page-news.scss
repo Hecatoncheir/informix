@@ -6,8 +6,29 @@
   margin-left: span(2);
   margin-right: span(1.1);
 
+  @include breakpoint(min-width 700px){
+    margin-left: span(0.2);
+    width: span(9);
+  }
+  @include breakpoint(min-width 1000px){
+    margin-left: span(2);
+    width: auto;
+  }
+
   .news-masonry {
     @include span(6);
+
+    article {
+      @include breakpoint(min-width 700px){
+        margin-left: span(2);
+        width: span(9);
+      }
+      @include breakpoint (min-width 1000px){
+        margin-left: auto;
+        width:  span(5.5);
+      }
+    }
+
   }
 
   article {

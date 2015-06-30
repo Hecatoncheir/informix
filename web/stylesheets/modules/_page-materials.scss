@@ -20,6 +20,12 @@
     .count {
       float: left;
     }
+    @include breakpoint(min-width 700px){
+      @include span(last 3)
+    }
+    @include breakpoint(min-width 1000px){
+      @include span(last 1.5)
+    }
   }
 
   header {
@@ -49,6 +55,14 @@
     margin-top: -33px;
     padding-bottom: 8px;
     padding-left: 15px;
+
+    @include breakpoint(min-width 700px){
+      @include span(last 6);
+    }
+    @include breakpoint(min-width 1200px){
+      @include span(last 3);
+    }
+
   }
 
   article {

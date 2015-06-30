@@ -33,5 +33,11 @@
 
     color: $orange-color;
     font-family: 'Ubuntu Bold';
+    @include breakpoint(min-width 700px){
+      @include adjust-font-size-to(14px);
+    }
+    @include breakpoint (min-width 1000px){
+      @include adjust-font-size-to(18px);
+    }
   }
 }
